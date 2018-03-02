@@ -2,7 +2,7 @@
 Logo Tiger Enterprise özel raporlar
 
 ### [Lot ve depo bazında stok raporu](https://github.com/ugurozpinar/logosql/blob/master/lot_depo_rapor.sql "Logo Tiger Enterprise özel rapor - Lot ve depo bazında stok")
-
+### [Çekler Raporu](https://github.com/ugurozpinar/logosql/blob/master/cekler.sql)
 
 
 ## Repo Hakkında
