@@ -7,7 +7,7 @@ Logo Tiger Enterprise özel raporlar
 
 
 ## Repo Hakkında
-Repoya dahil olmasını istediğiniz raporlar olursa commit yapabilir ya da önerileriniz için [bana](https://facebook.com/ugurozpinar) mesaj atarsanız çok sevinirim.
+Repoya dahil olmasını istediğiniz raporlar olursa commit yapabilir ya da önerileriniz için [bana](https://facebook.com/ugurozpinar) mesaj atabilirsiniz.
 
 Logo'da tablolar firma numaralarına göre değiştiğinden; sql'i çalıştırmadan önce firma numaralarını kendinize göre değiştiriniz
 
