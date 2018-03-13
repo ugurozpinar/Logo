@@ -1,4 +1,4 @@
-#Muhasebe Fiş Hareketlerinden Yaşlandırma Raporu
+# Muhasebe Fiş Hareketlerinden Yaşlandırma Raporu
 Cari hareketler, ödeme planları ve borç kapama verileri olmadan muhasebe hareketleri üzerinden borç alacak yaşlandırma raporları
 
 ### Raporu Kullanırken
