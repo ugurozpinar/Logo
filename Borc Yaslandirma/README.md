@@ -9,7 +9,7 @@ Raporu kullanırken değiştirmeniz gereken yerler;
 
 
 ## Detaylı Excel Ekran Görüntüsü
-### Pivot tablo kullanıldı
+### Sorgudan gelen detaylı veriler Pivot tablo ile özetlendiğinde
 ![](https://github.com/ugurozpinar/logosql/raw/master/Borc%20Yaslandirma/Screenshot_37.png)
 
 
