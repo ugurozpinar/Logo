@@ -11,4 +11,4 @@ Repoya dahil olmasını istediğiniz raporlar olursa commit yapabilir ya da öne
 
 Logo'da tablolar firma numaralarına göre değiştiğinden; sql'i çalıştırmadan önce firma numaralarını kendinize göre değiştiriniz
 
-### [Özyurt Tekstil](https://ozyurt.com.tr "Özyurt Tekstil") (backlink)
+
