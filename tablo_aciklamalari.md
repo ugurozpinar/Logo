@@ -1,3 +1,5 @@
+## Logo Tablo İsimleri ve Anlamları Açıklamaları
+
 **Tablo adı**|**Açıklama**
 -----|-----
 LG\_XXX\_XX\_BNFICHE|Banka fişleri
