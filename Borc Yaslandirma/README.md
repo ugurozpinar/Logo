@@ -10,8 +10,8 @@ Raporu kullanırken değiştirmeniz gereken yerler;
 
 ## Detaylı Excel Ekran Görüntüsü
 ### Sorgudan gelen detaylı veriler Pivot tablo ile özetlendiğinde
-![](https://github.com/ugurozpinar/logosql/raw/master/Borc%20Yaslandirma/Screenshot_37.png)
+![](https://github.com/ugurozpinar/logosql/raw/master/Screenshots/borcyaslandirmapivot.png)
 
 
 ## Özet Ekran Görüntüsü
-![](https://github.com/ugurozpinar/logosql/raw/master/Borc%20Yaslandirma/Screenshot_38.png)
+![](https://github.com/ugurozpinar/logosql/raw/master/Screenshots/borcyaslandirmaozet.png)
