@@ -5,6 +5,7 @@ Logo Tiger Enterprise özel raporlar
 ### [Lot ve Depo Bazında Stok Raporu](https://github.com/ugurozpinar/logosql/blob/master/lot_depo_rapor.sql "Logo Tiger Enterprise özel rapor - Lot ve Depo Bazında Stok")
 ### [Çekler Raporu](https://github.com/ugurozpinar/logosql/blob/master/cekler.sql "Logo Muhasebe Programı Çekler Raporu")
 ### [Muhasebe Fiş Hareketlerinden Yaşlandırma Raporu](https://github.com/ugurozpinar/logosql/tree/master/Borc%20Yaslandirma "Logo Tiger Muhasebe Programı Borç Yaşlandırma")
+### [Faturalar Satır Detaylı](https://github.com/ugurozpinar/Logo/tree/master/Faturalar%20Sat%C4%B1r%20Detayl%C4%B1 "Satır Bazında Fatura Detay İndirilecek KDV")
 
 
 ## Repo Hakkında
