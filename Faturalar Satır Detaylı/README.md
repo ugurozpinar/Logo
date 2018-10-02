@@ -1,7 +1,7 @@
 # Detaylı Fatura Raporu
 İndirilecek KDV Listesi hazırlarken kullanılmak için yapıldı.
 
-### [Satınalma Faturaları](https://github.com/ugurozpinar/logosql/blob/master/Tablo%20Açıklamaları "Detaylı Satınalma Faturaları Dökümü")
+### [Satınalma Faturaları](https://github.com/ugurozpinar/Logo/blob/master/Faturalar%20Sat%C4%B1r%20Detayl%C4%B1/Sat%C4%B1n%20Alma%20Faturalar%C4%B1.sql "Detaylı Satınalma Faturaları Dökümü")
 
 ## Sütunlar
 * Tarih
