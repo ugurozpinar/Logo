@@ -28,18 +28,20 @@
 
 ![](https://github.com/ugurozpinar/logosql/blob/master/Screenshots/satinalmafaturalardetay.png?raw=true)
 
-**TRCODE**|**Açıklama**
+**TRCODE**|**Açıklama**|**Alış/Satış**
 -----|-----
-1|Satınalma Faturası
-2|Perakende Satış İade Faturası
-3|Toptan Satış İade Faturası
-4|Alınan hizmet Faturası
-5|Alınan proforma fatura
-6|alım İade Faturası
-7|Perakende Satış Faturası
-8|Toptan Satış Faturası
-9|Verilen hizmet Faturası
-10|Verilen proforma fatura
-13|Alınan Fiyat farkı Faturası
-14|Verilen fiyat farkı Faturası
-26|Müstahsil makbuzu
+1|Satınalma Faturası|Satınalma
+2|Perakende Satış İade Faturası|Satış
+3|Toptan Satış İade Faturası|Satış
+4|Alınan Hizmet Faturası|Satınalma
+5|Alınan Proforma Faturası|Satınalma
+6|Satınalma İade Faturası|Satınalma
+7|Perakende Satış Faturası|Satış
+8|Toptan Satış Faturası|Satış
+9|Verilen Hizmet Faturası|Satış
+10|Verilen Proforma Faturası|Satış
+12|Alınan Vade Farkı Faturası|Satınalma
+13|Satınalma Fiyat Farkı Faturası|Satınalma
+14|Satış Fiyat Farkı Faturası|Satış
+26|Müstahsil Makbuzu|Satınalma
+
