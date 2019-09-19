@@ -27,3 +27,19 @@
 * Fatura Açıklama
 
 ![](https://github.com/ugurozpinar/logosql/blob/master/Screenshots/satinalmafaturalardetay.png?raw=true)
+
+**TRCODE**|**Açıklama**
+-----|-----
+1|Satınalma Faturası
+2|Perakende Satış İade Faturası
+3|Toptan Satış İade Faturası
+4|Alınan hizmet Faturası
+5|Alınan proforma fatura
+6|alım İade Faturası
+7|Perakende Satış Faturası
+8|Toptan Satış Faturası
+9|Verilen hizmet Faturası
+10|Verilen proforma fatura
+13|Alınan Fiyat farkı Faturası
+14|Verilen fiyat farkı Faturası
+26|Müstahsil makbuzu
