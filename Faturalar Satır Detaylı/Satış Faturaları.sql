@@ -1,4 +1,4 @@
--- Satınalma Faturaları Detaylı Döküm
+-- Satış Faturaları Detaylı Döküm
 
 
 SELECT
