@@ -29,7 +29,7 @@
 ![](https://github.com/ugurozpinar/logosql/blob/master/Screenshots/satinalmafaturalardetay.png?raw=true)
 
 **TRCODE**|**Açıklama**|**Alış/Satış**
------|-----
+-----|-----|-----
 1|Satınalma Faturası|Satınalma
 2|Perakende Satış İade Faturası|Satış
 3|Toptan Satış İade Faturası|Satış
