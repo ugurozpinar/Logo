@@ -1,3 +1,48 @@
+## Cari Ekstre (CLFLINE) TRCODE ve MODULENR karşılıkları
+
+**TRCODE**|**MODULENR**|**Ad**
+-----|-----|-----
+31|4|Satınalma Faturası
+34|4|Alınan Hizmet Faturası
+36|4|Satınalma İade Faturası
+43|4|Satınalma Fiyat Farkı Faturası
+56|4|Müstahsil Makbuzu
+38|4|Toptan Satış Faturası
+37|4|Perakende Satış Faturası
+32|4|Perakende Satış İade Faturası
+33|4|Toptan Satış İade Faturası
+39|4|Verilen Hizmet Faturası
+44|4|Satış Fiyat Farkı Faturası
+1|5|Nakit Tahsilat
+2|5|Nakit Ödeme
+3|5|Borç Dekontu
+4|5|Alacak Dekontu
+5|5|Virman Fişi
+14|5|Açılış Fişi
+41|4|Verilen Vade Farkı Faturası
+42|4|Alınan Vade Farkı Faturası
+45|5|Verilen Serbest Meslek Makbuzu
+46|5|Alınan Serbest Meslek Makbuzu
+70|5|Kredi Kart Fişi
+71|5|Kredi Kart İade Fişi
+72|5|Firma Kredi Kart Fişi
+73|5|Firma Kredi Kart İade Fişi
+61|6|Çek Girişi
+62|6|Senet Girişi
+63|6|Çek Çıkış
+64|6|Senet Çıkış
+3|61|Müşteriye İade Edilen Çek
+1|10|Kasa Nakit Tahsilat
+2|10|Kasa Nakit Ödeme
+20|7|Gelen Havale
+21|7|Gönderilen Havale
+81|3|Alınan Sipariş
+82|3|Verilen Sipariş
+
+
+
+
+
 ## Logo Tablo İsimleri ve Anlamları Açıklamaları
 
 **Tablo adı**|**Açıklama**
