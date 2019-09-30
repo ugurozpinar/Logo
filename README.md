@@ -1,7 +1,7 @@
 # Logo SQL
 Logo Tiger Enterprise özel raporlar
 
-### [Tiger 3, Tiger 3 Enterprise, Go 3 Veritabanı (Database)](https://github.com/ugurozpinar/logosql/blob/master/Tablo%20Açıklamaları)
+### [Tiger 3, Tiger 3 Enterprise, Go 3 Veritabanı (Database)](Tablo%20Açıklamaları)
 ### [Lot ve Depo Bazında Stok Raporu](https://github.com/ugurozpinar/logosql/blob/master/lot_depo_rapor.sql "Logo Tiger Enterprise özel rapor - Lot ve Depo Bazında Stok")
 ### [Çekler Raporu](https://github.com/ugurozpinar/logosql/blob/master/cekler.sql "Logo Muhasebe Programı Çekler Raporu")
 ### [Muhasebe Fiş Hareketlerinden Yaşlandırma Raporu](https://github.com/ugurozpinar/logosql/tree/master/Borc%20Yaslandirma "Logo Tiger Muhasebe Programı Borç Yaşlandırma")
