@@ -53,8 +53,8 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-2|0|754||ACCFICHEREF|[L_EMFICHE](../L_EMFICHE "L_EMFICHE")|LOGICALREF|one-to-one|
-2|0|754||BNACCOUNTREF|[L_BNCARD](../L_BNCARD "L_BNCARD")|LOGICALREF|one-to-one|
+2|0|754||ACCFICHEREF|[L_EMFICHE](../LG_EMFICHE "L_EMFICHE")|LOGICALREF|one-to-one|
+2|0|754||BNACCOUNTREF|[L_BNCARD](../LG_BNCARD "L_BNCARD")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

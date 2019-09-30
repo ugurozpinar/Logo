@@ -41,9 +41,9 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|3|806||ACCOUNTREF|[L_EMUHACC](../L_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
-1|3|806||CENTERREF|[L_EMCENTER](../L_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
-1|3|806||SHFTGRPREF|[L_EMPGROUP](../L_EMPGROUP "L_EMPGROUP")|LOGICALREF|one-to-one|
+1|3|806||ACCOUNTREF|[L_EMUHACC](../LG_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
+1|3|806||CENTERREF|[L_EMCENTER](../LG_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
+1|3|806||SHFTGRPREF|[L_EMPGROUP](../LG_EMPGROUP "L_EMPGROUP")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

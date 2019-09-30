@@ -45,12 +45,12 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|1|900||WIDTHREF|[L_UNITSETL](../L_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
-1|1|900||LENGTHREF|[L_UNITSETL](../L_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
-1|1|900||HEIGHTREF|[L_UNITSETL](../L_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
-1|1|900||AREAREF|[L_UNITSETL](../L_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
-1|1|900||VOLUMEREF|[L_UNITSETL](../L_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
-1|1|900||WEIGHTREF|[L_UNITSETL](../L_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
+1|1|900||WIDTHREF|[L_UNITSETL](../LG_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
+1|1|900||LENGTHREF|[L_UNITSETL](../LG_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
+1|1|900||HEIGHTREF|[L_UNITSETL](../LG_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
+1|1|900||AREAREF|[L_UNITSETL](../LG_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
+1|1|900||VOLUMEREF|[L_UNITSETL](../LG_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
+1|1|900||WEIGHTREF|[L_UNITSETL](../LG_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

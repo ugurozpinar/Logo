@@ -16,7 +16,7 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-2|3|703||CARDREF|[L_SRVCARD](../L_SRVCARD "L_SRVCARD")|LOGICALREF|one-to-many|
+2|3|703||CARDREF|[L_SRVCARD](../LG_SRVCARD "L_SRVCARD")|LOGICALREF|one-to-many|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

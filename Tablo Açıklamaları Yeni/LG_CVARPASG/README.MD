@@ -16,8 +16,8 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|0|779||CSTVNDREF|[L_CSTVND](../L_CSTVND "L_CSTVND")|LOGICALREF|one-to-one|
-1|0|779||ARPREF|[L_CLCARD](../L_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|
+1|0|779||CSTVNDREF|[L_CSTVND](../LG_CSTVND "L_CSTVND")|LOGICALREF|one-to-one|
+1|0|779||ARPREF|[L_CLCARD](../LG_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

@@ -22,13 +22,13 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|0|803||CLREF|[L_CLCARD](../L_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|
-1|0|803||ITEMREF|[L_ITEMS](../L_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
-1|0|803||UNITREF|[L_UNITSETL](../L_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
-1|0|803||BOMREF|[L_BOMASTER](../L_BOMASTER "L_BOMASTER")|LOGICALREF|one-to-one|
-1|0|803||REVREF|[L_BOMREVSN](../L_BOMREVSN "L_BOMREVSN")|LOGICALREF|one-to-one|
-1|0|803||PARENTPROPREF|[L_MRPPROPOSAL](../L_MRPPROPOSAL "L_MRPPROPOSAL")|LOGICALREF|one-to-one|
-1|0|803||SOURCEREF|[L_MRPHEAD](../L_MRPHEAD "L_MRPHEAD")|LOGICALREF|one-to-one|
+1|0|803||CLREF|[L_CLCARD](../LG_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|
+1|0|803||ITEMREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
+1|0|803||UNITREF|[L_UNITSETL](../LG_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
+1|0|803||BOMREF|[L_BOMASTER](../LG_BOMASTER "L_BOMASTER")|LOGICALREF|one-to-one|
+1|0|803||REVREF|[L_BOMREVSN](../LG_BOMREVSN "L_BOMREVSN")|LOGICALREF|one-to-one|
+1|0|803||PARENTPROPREF|[L_MRPPROPOSAL](../LG_MRPPROPOSAL "L_MRPPROPOSAL")|LOGICALREF|one-to-one|
+1|0|803||SOURCEREF|[L_MRPHEAD](../LG_MRPHEAD "L_MRPHEAD")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

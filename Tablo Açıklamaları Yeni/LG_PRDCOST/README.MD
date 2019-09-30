@@ -28,10 +28,10 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-2|3|840||ITEMREF|[L_ITEMS](../L_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
-2|3|840||INVENCOSTWSREF|[L_WORKSTAT](../L_WORKSTAT "L_WORKSTAT")|LOGICALREF|one-to-one|
-2|3|840||STTRANSREF|[L_STLINE](../L_STLINE "L_STLINE")|LOGICALREF|one-to-one|
-2|3|840||MAINUNITREF|[L_UNITSETL](../L_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
+2|3|840||ITEMREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
+2|3|840||INVENCOSTWSREF|[L_WORKSTAT](../LG_WORKSTAT "L_WORKSTAT")|LOGICALREF|one-to-one|
+2|3|840||STTRANSREF|[L_STLINE](../LG_STLINE "L_STLINE")|LOGICALREF|one-to-one|
+2|3|840||MAINUNITREF|[L_UNITSETL](../LG_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

@@ -58,8 +58,8 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|3|748||FREGREF|[L_FAREGIST](../L_FAREGIST "L_FAREGIST")|LOGICALREF|one-to-one|
-1|3|748||ACCFICHEREF|[L_EMFICHE](../L_EMFICHE "L_EMFICHE")|LOGICALREF|one-to-one|
+1|3|748||FREGREF|[L_FAREGIST](../LG_FAREGIST "L_FAREGIST")|LOGICALREF|one-to-one|
+1|3|748||ACCFICHEREF|[L_EMFICHE](../LG_EMFICHE "L_EMFICHE")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

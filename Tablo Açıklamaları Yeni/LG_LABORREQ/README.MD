@@ -14,8 +14,8 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|2|846||OPREQREF|[L_OPRTREQ](../L_OPRTREQ "L_OPRTREQ")|LOGICALREF|one-to-one|
-1|2|846||EMPREF|[L_EMPLOYEE](../L_EMPLOYEE "L_EMPLOYEE")|LOGICALREF|one-to-many|
+1|2|846||OPREQREF|[L_OPRTREQ](../LG_OPRTREQ "L_OPRTREQ")|LOGICALREF|one-to-one|
+1|2|846||EMPREF|[L_EMPLOYEE](../LG_EMPLOYEE "L_EMPLOYEE")|LOGICALREF|one-to-many|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

@@ -47,17 +47,17 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-0|0|975||WFCARDREF|[L_WORKFLOWCARD](../L_WORKFLOWCARD "L_WORKFLOWCARD")|LOGICALREF|one-to-one|
-0|0|975||WFLINEREF|[L_WORKFLOWLINE](../L_WORKFLOWLINE "L_WORKFLOWLINE")|LOGICALREF|one-to-one|
-0|0|975||WFROLEREF|[L_WFLOWROLE](../L_WFLOWROLE "L_WFLOWROLE")|LOGICALREF|one-to-one|
-0|0|975||PERTASKREF|[L_WFTASKPER](../L_WFTASKPER "L_WFTASKPER")|LOGICALREF|one-to-one|
-0|0|975||RECORDREF|[L_ITEMS](../L_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|WorkPlace Type=1 =&gt;
-0|0|975||RECORDREF|[L_CLCARD](../L_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|WorkPlace Type=2 =&gt;
-0|0|975||RECORDREF|[L_ORFICHE](../L_ORFICHE "L_ORFICHE")|LOGICALREF|one-to-one|WorkPlace Type=7/8 =&gt;
-0|0|975||RECORDREF|[L_STFICHE](../L_STFICHE "L_STFICHE")|LOGICALREF|one-to-one|WorkPlace Type=16/32 =&gt;
-0|0|975||RECORDREF|[L_INVOICE](../L_INVOICE "L_INVOICE")|LOGICALREF|one-to-one|WorkPlace Type=64/28 =&gt;
+0|0|975||WFCARDREF|[L_WORKFLOWCARD](../LG_WORKFLOWCARD "L_WORKFLOWCARD")|LOGICALREF|one-to-one|
+0|0|975||WFLINEREF|[L_WORKFLOWLINE](../LG_WORKFLOWLINE "L_WORKFLOWLINE")|LOGICALREF|one-to-one|
+0|0|975||WFROLEREF|[L_WFLOWROLE](../LG_WFLOWROLE "L_WFLOWROLE")|LOGICALREF|one-to-one|
+0|0|975||PERTASKREF|[L_WFTASKPER](../ "L_WFTASKPER")|LOGICALREF|one-to-one|
+0|0|975||RECORDREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|WorkPlace Type=1 =&gt;
+0|0|975||RECORDREF|[L_CLCARD](../LG_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|WorkPlace Type=2 =&gt;
+0|0|975||RECORDREF|[L_ORFICHE](../LG_ORFICHE "L_ORFICHE")|LOGICALREF|one-to-one|WorkPlace Type=7/8 =&gt;
+0|0|975||RECORDREF|[L_STFICHE](../LG_STFICHE "L_STFICHE")|LOGICALREF|one-to-one|WorkPlace Type=16/32 =&gt;
+0|0|975||RECORDREF|[L_INVOICE](../LG_INVOICE "L_INVOICE")|LOGICALREF|one-to-one|WorkPlace Type=64/28 =&gt;
 0|0|975||RECORDREF|[L_DEMANDFICHE](../L_DEMANDFICHE "L_DEMANDFICHE")|LOGICALREF|one-to-one|WorkPlace Type=256 =&gt;
-0|0|975||PARENTTASKREF|[L_WFTASK](../L_WFTASK "L_WFTASK")|LOGICALREF|one-to-one|
+0|0|975||PARENTTASKREF|[L_WFTASK](../LDDS-Res "L_WFTASK")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

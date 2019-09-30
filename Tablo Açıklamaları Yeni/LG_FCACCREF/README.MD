@@ -17,12 +17,12 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-2|0|896||FICHEREF|[L_STFICHE](../L_STFICHE "L_STFICHE")|LOGICALREF|one-to-one|
-2|0|896||WSREF|[L_WORKSTAT](../L_WORKSTAT "L_WORKSTAT")|LOGICALREF|one-to-one|
-2|0|896||ACCOUNTREF|[L_EMUHACC](../L_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
-2|0|896||CENTERREF|[L_EMCENTER](../L_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
-2|0|896||OVHDREF|[L_OVERHEADS](../L_OVERHEADS "L_OVERHEADS")|LOGICALREF|one-to-one|
-2|0|896||STREF|[L_ITEMS](../L_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
+2|0|896||FICHEREF|[L_STFICHE](../LG_STFICHE "L_STFICHE")|LOGICALREF|one-to-one|
+2|0|896||WSREF|[L_WORKSTAT](../LG_WORKSTAT "L_WORKSTAT")|LOGICALREF|one-to-one|
+2|0|896||ACCOUNTREF|[L_EMUHACC](../LG_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
+2|0|896||CENTERREF|[L_EMCENTER](../LG_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
+2|0|896||OVHDREF|[L_OVERHEADS](../LG_OVERHEADS "L_OVERHEADS")|LOGICALREF|one-to-one|
+2|0|896||STREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

@@ -18,12 +18,12 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|1|822||SOURCEREF|[L_EMPLOYEE](../L_EMPLOYEE "L_EMPLOYEE")|LOGICALREF|one-to-one|SOURCETYPE = 0
-1|1|822||SOURCEREF|[L_EMPGROUP](../L_EMPGROUP "L_EMPGROUP")|LOGICALREF|one-to-one|SOURCETYPE = 1
-1|1|822||SOURCEREF|[L_WORKSTAT](../L_WORKSTAT "L_WORKSTAT")|LOGICALREF|one-to-one|SOURCETYPE = 2
-1|1|822||SOURCEREF|[L_WSGRPF](../L_WSGRPF "L_WSGRPF")|LOGICALREF|one-to-one|SOURCETYPE = 3
-1|1|822||SHIFTREF|[L_SHIFT](../L_SHIFT "L_SHIFT")|LOGICALREF|one-to-one|
-1|1|822||SHIFTTREF|[L_SHFTTIME](../L_SHFTTIME "L_SHFTTIME")|LOGICALREF|one-to-one|
+1|1|822||SOURCEREF|[L_EMPLOYEE](../LG_EMPLOYEE "L_EMPLOYEE")|LOGICALREF|one-to-one|SOURCETYPE = 0
+1|1|822||SOURCEREF|[L_EMPGROUP](../LG_EMPGROUP "L_EMPGROUP")|LOGICALREF|one-to-one|SOURCETYPE = 1
+1|1|822||SOURCEREF|[L_WORKSTAT](../LG_WORKSTAT "L_WORKSTAT")|LOGICALREF|one-to-one|SOURCETYPE = 2
+1|1|822||SOURCEREF|[L_WSGRPF](../LG_WSGRPF "L_WSGRPF")|LOGICALREF|one-to-one|SOURCETYPE = 3
+1|1|822||SHIFTREF|[L_SHIFT](../LG_SHIFT "L_SHIFT")|LOGICALREF|one-to-one|
+1|1|822||SHIFTTREF|[L_SHFTTIME](../LG_SHFTTIME "L_SHFTTIME")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

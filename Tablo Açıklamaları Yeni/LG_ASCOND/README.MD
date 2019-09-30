@@ -24,12 +24,12 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|3|743||CARDREF|[L_DECARDS](../L_DECARDS "L_DECARDS")|LOGICALREF|one-to-one|LINETYPE = 1
-1|3|743||CARDREF|[L_DECARDS](../L_DECARDS "L_DECARDS")|LOGICALREF|one-to-one|LINETYPE = 2
-1|3|743||LOGICALREF|[L_PRCARDS](../L_PRCARDS "L_PRCARDS")|LOGICALREF|one-to-one|LINETYPE = 3
-1|3|743||STCODES|[L_ITEMS](../L_ITEMS "L_ITEMS")|CODE|one-to-one|
-1|3|743||CICODES|[L_CLCARD](../L_CLCARD "L_CLCARD")|CODE|one-to-one|
-1|3|743||PAYCODES|[L_PAYPLANS](../L_PAYPLANS "L_PAYPLANS")|CODE|one-to-one|
+1|3|743||CARDREF|[L_DECARDS](../LG_DECARDS "L_DECARDS")|LOGICALREF|one-to-one|LINETYPE = 1
+1|3|743||CARDREF|[L_DECARDS](../LG_DECARDS "L_DECARDS")|LOGICALREF|one-to-one|LINETYPE = 2
+1|3|743||LOGICALREF|[L_PRCARDS](../LG_PRCARDS "L_PRCARDS")|LOGICALREF|one-to-one|LINETYPE = 3
+1|3|743||STCODES|[L_ITEMS](../LG_ITEMS "L_ITEMS")|CODE|one-to-one|
+1|3|743||CICODES|[L_CLCARD](../LG_CLCARD "L_CLCARD")|CODE|one-to-one|
+1|3|743||PAYCODES|[L_PAYPLANS](../LG_PAYPLANS "L_PAYPLANS")|CODE|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

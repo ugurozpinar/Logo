@@ -25,11 +25,11 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|0|873||PRODORDREF|[L_PRODORD](../L_PRODORD "L_PRODORD")|LOGICALREF|one-to-one|
-1|0|873||DISPLINEREF|[L_DISPLINE](../L_DISPLINE "L_DISPLINE")|LOGICALREF|one-to-one|
-1|0|873||OPREF|[L_OPERTION](../L_OPERTION "L_OPERTION")|LOGICALREF|one-to-one|
-1|0|873||WSREF|[L_WORKSTAT](../L_WORKSTAT "L_WORKSTAT")|LOGICALREF|one-to-one|
-1|0|873||CAUSEREF|[L_STOPCAUSE](../L_STOPCAUSE "L_STOPCAUSE")|LOGICALREF|one-to-one|
+1|0|873||PRODORDREF|[L_PRODORD](../LG_PRODORD "L_PRODORD")|LOGICALREF|one-to-one|
+1|0|873||DISPLINEREF|[L_DISPLINE](../LG_DISPLINE "L_DISPLINE")|LOGICALREF|one-to-one|
+1|0|873||OPREF|[L_OPERTION](../LG_OPERTION "L_OPERTION")|LOGICALREF|one-to-one|
+1|0|873||WSREF|[L_WORKSTAT](../LG_WORKSTAT "L_WORKSTAT")|LOGICALREF|one-to-one|
+1|0|873||CAUSEREF|[L_STOPCAUSE](../LG_STOPCAUSE "L_STOPCAUSE")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

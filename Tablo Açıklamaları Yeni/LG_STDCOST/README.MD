@@ -30,9 +30,9 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|0|850||UNITREF|[L_UNITSETL](../L_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
-1|0|850||RESREF|[L_WORKSTAT](../L_WORKSTAT "L_WORKSTAT")|LOGICALREF|one-to-one|RESTYPE = 8
-1|0|850||RESREF|[L_EMPLOYEE](../L_EMPLOYEE "L_EMPLOYEE")|LOGICALREF|one-to-one|RESTYPE = 1
+1|0|850||UNITREF|[L_UNITSETL](../LG_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
+1|0|850||RESREF|[L_WORKSTAT](../LG_WORKSTAT "L_WORKSTAT")|LOGICALREF|one-to-one|RESTYPE = 8
+1|0|850||RESREF|[L_EMPLOYEE](../LG_EMPLOYEE "L_EMPLOYEE")|LOGICALREF|one-to-one|RESTYPE = 1
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

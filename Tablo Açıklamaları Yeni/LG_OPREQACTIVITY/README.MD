@@ -14,8 +14,8 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|1|913||OPREQREF|[L_OPRTREQ](../L_OPRTREQ "L_OPRTREQ")|LOGICALREF|one-to-one|
-1|1|913||OVHDREF|[L_OVERHEADS](../L_OVERHEADS "L_OVERHEADS")|LOGICALREF|one-to-one|
+1|1|913||OPREQREF|[L_OPRTREQ](../LG_OPRTREQ "L_OPRTREQ")|LOGICALREF|one-to-one|
+1|1|913||OVHDREF|[L_OVERHEADS](../LG_OVERHEADS "L_OVERHEADS")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

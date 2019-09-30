@@ -35,8 +35,8 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|3|702||UNITSETREF|[L_UNITSETF](../L_UNITSETF "L_UNITSETF")|LOGICALREF|one-to-many|
-1|3|702||PAYMENTREF|[L_PAYPLANS](../L_PAYPLANS "L_PAYPLANS")|LOGICALREF|one-to-many|
+1|3|702||UNITSETREF|[L_UNITSETF](../LG_UNITSETF "L_UNITSETF")|LOGICALREF|one-to-many|
+1|3|702||PAYMENTREF|[L_PAYPLANS](../LG_PAYPLANS "L_PAYPLANS")|LOGICALREF|one-to-many|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

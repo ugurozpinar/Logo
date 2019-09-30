@@ -126,10 +126,10 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|3|715||PAYMENTREF|[L_PAYPLANS](../L_PAYPLANS "L_PAYPLANS")|LOGICALREF|one-to-one|
-1|3|715||PPGROUPREF|[L_PAYPLANS](../L_PAYPLANS "L_PAYPLANS")|PPGROUPREF|one-to-one|
+1|3|715||PAYMENTREF|[L_PAYPLANS](../LG_PAYPLANS "L_PAYPLANS")|LOGICALREF|one-to-one|
+1|3|715||PPGROUPREF|[L_PAYPLANS](../LG_PAYPLANS "L_PAYPLANS")|PPGROUPREF|one-to-one|
 1|3|715||EXPBUSTYPREF|[L_PERMFILE](../L_PERMFILE "L_PERMFILE")|LOGICALREF|one-to-one|
-1|3|715||WFLOWCRDREF|[L_WFTASK](../L_WFTASK "L_WFTASK")|LOGICALREF|one-to-one|
+1|3|715||WFLOWCRDREF|[L_WFTASK](../LDDS-Res "L_WFTASK")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

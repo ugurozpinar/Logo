@@ -13,9 +13,9 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|0|911||CARDREF|[L_OVRHDCENTER](../L_OVRHDCENTER "L_OVRHDCENTER")|LOGICALREF|one-to-one|
-1|0|911||CENTERREF|[L_OVRHDCENTER](../L_OVRHDCENTER "L_OVRHDCENTER")|LOGICALREF|one-to-one|
-1|0|911||COSTPRDREF|[L_STDCOSTPERIOD](../L_STDCOSTPERIOD "L_STDCOSTPERIOD")|LOGICALREF|one-to-one|
+1|0|911||CARDREF|[L_OVRHDCENTER](../LG_OVRHDCENTER "L_OVRHDCENTER")|LOGICALREF|one-to-one|
+1|0|911||CENTERREF|[L_OVRHDCENTER](../LG_OVRHDCENTER "L_OVRHDCENTER")|LOGICALREF|one-to-one|
+1|0|911||COSTPRDREF|[L_STDCOSTPERIOD](../LG_STDCOSTPERIOD "L_STDCOSTPERIOD")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

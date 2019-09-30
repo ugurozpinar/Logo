@@ -39,9 +39,9 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-0|0|967||FICHEREF|[L_ORFICHE](../L_ORFICHE "L_ORFICHE")|LOGICALREF|one-to-one|If FicheType = 0
-0|0|967||FICHEREF|[L_INVOICE](../L_INVOICE "L_INVOICE")|LOGICALREF|one-to-one|If FicheType = 1
-0|0|967||CLIENTREF|[L_CLCARD](../L_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|
+0|0|967||FICHEREF|[L_ORFICHE](../LG_ORFICHE "L_ORFICHE")|LOGICALREF|one-to-one|If FicheType = 0
+0|0|967||FICHEREF|[L_INVOICE](../LG_INVOICE "L_INVOICE")|LOGICALREF|one-to-one|If FicheType = 1
+0|0|967||CLIENTREF|[L_CLCARD](../LG_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

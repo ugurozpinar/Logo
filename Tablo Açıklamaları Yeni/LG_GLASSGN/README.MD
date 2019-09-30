@@ -17,11 +17,11 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|0|943||ACCREF|[L_EMUHACC](../L_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
-1|0|943||CCENTERREF|[L_EMCENTER](../L_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
+1|0|943||ACCREF|[L_EMUHACC](../LG_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
+1|0|943||CCENTERREF|[L_EMCENTER](../LG_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
 1|0|943||PROJECTREF|[L_PROJECT](../L_PROJECT "L_PROJECT")|LOGICALREF|one-to-one|
-1|0|943||ACCDISTTEMPREF|[L_ACCDISTTEMP](../L_ACCDISTTEMP "L_ACCDISTTEMP")|LOGICALREF|one-to-one|
-1|0|943||TRANREF|[L_STFICHE](../L_STFICHE "L_STFICHE")|LOGICALREF|one-to-one|ModuleNr=25
+1|0|943||ACCDISTTEMPREF|[L_ACCDISTTEMP](../LG_ACCDISTTEMP "L_ACCDISTTEMP")|LOGICALREF|one-to-one|
+1|0|943||TRANREF|[L_STFICHE](../LG_STFICHE "L_STFICHE")|LOGICALREF|one-to-one|ModuleNr=25
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

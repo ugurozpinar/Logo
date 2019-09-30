@@ -21,10 +21,10 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-0|0|945||CLIENTREF|[L_CLCARD](../L_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|
-0|0|945||FICHEREF|[L_STFICHE](../L_STFICHE "L_STFICHE")|LOGICALREF|one-to-one|
-0|0|945||PAYTRANSREF|[L_PAYTRANS](../L_PAYTRANS "L_PAYTRANS")|LOGICALREF|one-to-one|
-0|0|945||PAYPLANREF|[L_PAYPLANS](../L_PAYPLANS "L_PAYPLANS")|LOGICALREF|one-to-one|
+0|0|945||CLIENTREF|[L_CLCARD](../LG_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|
+0|0|945||FICHEREF|[L_STFICHE](../LG_STFICHE "L_STFICHE")|LOGICALREF|one-to-one|
+0|0|945||PAYTRANSREF|[L_PAYTRANS](../LG_PAYTRANS "L_PAYTRANS")|LOGICALREF|one-to-one|
+0|0|945||PAYPLANREF|[L_PAYPLANS](../LG_PAYPLANS "L_PAYPLANS")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

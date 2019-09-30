@@ -34,13 +34,13 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|0|838||SETREF|[L_QCSET](../L_QCSET "L_QCSET")|LOGICALREF|one-to-one|
-1|0|838||LINEREF|[L_QCSLINE](../L_QCSLINE "L_QCSLINE")|LOGICALREF|one-to-one|
-1|0|838||OPITEMREF|[L_ITEMS](../L_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
-1|0|838||VALREF|[L_QCLVAL](../L_QCLVAL "L_QCLVAL")|LOGICALREF|one-to-one|
-1|0|838||TOOLREF|[L_ITEMS](../L_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
-1|0|838||ASGNREF|[L_ITEMS](../L_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|ASGNTYPE=0
-1|0|838||ASGNREF|[L_OPERTION](../L_OPERTION "L_OPERTION")|LOGICALREF|one-to-one|ASGNTYPE=2
+1|0|838||SETREF|[L_QCSET](../LG_QCSET "L_QCSET")|LOGICALREF|one-to-one|
+1|0|838||LINEREF|[L_QCSLINE](../LG_QCSLINE "L_QCSLINE")|LOGICALREF|one-to-one|
+1|0|838||OPITEMREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
+1|0|838||VALREF|[L_QCLVAL](../LG_QCLVAL "L_QCLVAL")|LOGICALREF|one-to-one|
+1|0|838||TOOLREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
+1|0|838||ASGNREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|ASGNTYPE=0
+1|0|838||ASGNREF|[L_OPERTION](../LG_OPERTION "L_OPERTION")|LOGICALREF|one-to-one|ASGNTYPE=2
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

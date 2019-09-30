@@ -13,8 +13,8 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|3|833||PARENTUSREF|[L_UNITSETF](../L_UNITSETF "L_UNITSETF")|LOGICALREF|one-to-one|
-1|3|833||CHILDUSREF|[L_UNITSETF](../L_UNITSETF "L_UNITSETF")|LOGICALREF|one-to-one|
+1|3|833||PARENTUSREF|[L_UNITSETF](../LG_UNITSETF "L_UNITSETF")|LOGICALREF|one-to-one|
+1|3|833||CHILDUSREF|[L_UNITSETF](../LG_UNITSETF "L_UNITSETF")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

@@ -27,10 +27,10 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|0|783||CUSTVNDREF|[L_CSTVND](../L_CSTVND "L_CSTVND")|LOGICALREF|one-to-one|
-1|0|783||ACTIVITYREF|[L_SLSACTIV](../L_SLSACTIV "L_SLSACTIV")|LOGICALREF|one-to-one|
-1|0|783||SALESMANREF|[L_SLSMAN](../L_SLSMAN "L_SLSMAN")|LOGICALREF|one-to-one|
-1|0|783||OPPORREF|[L_SLSOPPOR](../L_SLSOPPOR "L_SLSOPPOR")|LOGICALREF|one-to-one|
+1|0|783||CUSTVNDREF|[L_CSTVND](../LG_CSTVND "L_CSTVND")|LOGICALREF|one-to-one|
+1|0|783||ACTIVITYREF|[L_SLSACTIV](../LG_SLSACTIV "L_SLSACTIV")|LOGICALREF|one-to-one|
+1|0|783||SALESMANREF|[L_SLSMAN](../LG_SLSMAN "L_SLSMAN")|LOGICALREF|one-to-one|
+1|0|783||OPPORREF|[L_SLSOPPOR](../LG_SLSOPPOR "L_SLSOPPOR")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

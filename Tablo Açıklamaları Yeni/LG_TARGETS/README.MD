@@ -35,9 +35,9 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|3|774||SALESMANREF|[L_SLSMAN](../L_SLSMAN "L_SLSMAN")|LOGICALREF|one-to-one|
-1|3|774||STCODE|[L_ITEMS](../L_ITEMS "L_ITEMS")|CODE|one-to-one|
-1|3|774||STGROUPCODE|[L_ITEMS](../L_ITEMS "L_ITEMS")|STGRPCODE|one-to-one|
+1|3|774||SALESMANREF|[L_SLSMAN](../LG_SLSMAN "L_SLSMAN")|LOGICALREF|one-to-one|
+1|3|774||STCODE|[L_ITEMS](../LG_ITEMS "L_ITEMS")|CODE|one-to-one|
+1|3|774||STGROUPCODE|[L_ITEMS](../LG_ITEMS "L_ITEMS")|STGRPCODE|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

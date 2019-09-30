@@ -16,9 +16,9 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-0|0|789||USERID|[L_SLSMAN](../L_SLSMAN "L_SLSMAN")|LOGICALREF|one-to-one|
-0|0|789||PARENTREF|[L_SATI](../L_SATI "L_SATI")|LOGICALREF|one-to-one|
-0|0|789||FILTERREF|[L_SATIFILTER](../L_SATIFILTER "L_SATIFILTER")|LOGICALREF|one-to-one|
+0|0|789||USERID|[L_SLSMAN](../LG_SLSMAN "L_SLSMAN")|LOGICALREF|one-to-one|
+0|0|789||PARENTREF|[L_SATI](../LG_SATI "L_SATI")|LOGICALREF|one-to-one|
+0|0|789||FILTERREF|[L_SATIFILTER](../LG_SATIFILTER "L_SATIFILTER")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

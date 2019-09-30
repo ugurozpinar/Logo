@@ -36,8 +36,8 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|3|720||PPGROUPREF|[L_PAYPLANS](../L_PAYPLANS "L_PAYPLANS")|LOGICALREF|one-to-one|
-1|3|720||BANKACCREF|[L_BANKACC](../L_BANKACC "L_BANKACC")|LOGICALREF|one-to-one|
+1|3|720||PPGROUPREF|[L_PAYPLANS](../LG_PAYPLANS "L_PAYPLANS")|LOGICALREF|one-to-one|
+1|3|720||BANKACCREF|[L_BANKACC](../LG_BANKACC "L_BANKACC")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

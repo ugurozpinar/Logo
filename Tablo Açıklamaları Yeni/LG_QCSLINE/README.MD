@@ -33,8 +33,8 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|3|836||SETREF|[L_QCSET](../L_QCSET "L_QCSET")|LOGICALREF|one-to-one|
-1|3|836||TOOLREF|[L_ITEMS](../L_ITEMS "L_ITEMS")|LOGICALREF|one-to-many|
+1|3|836||SETREF|[L_QCSET](../LG_QCSET "L_QCSET")|LOGICALREF|one-to-one|
+1|3|836||TOOLREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-many|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

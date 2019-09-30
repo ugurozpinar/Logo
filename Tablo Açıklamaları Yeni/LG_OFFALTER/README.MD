@@ -88,10 +88,10 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|0|784||OFFERREF|[L_OFFER](../L_OFFER "L_OFFER")|LOGICALREF|one-to-one|
-1|0|784||PAYDEFREF|[L_PAYPLANS](../L_PAYPLANS "L_PAYPLANS")|LOGICALREF|one-to-one|
+1|0|784||OFFERREF|[L_OFFER](../LG_OFFER "L_OFFER")|LOGICALREF|one-to-one|
+1|0|784||PAYDEFREF|[L_PAYPLANS](../LG_PAYPLANS "L_PAYPLANS")|LOGICALREF|one-to-one|
 1|0|784||PROJECTREF|[L_PROJECT](../L_PROJECT "L_PROJECT")|LOGICALREF|one-to-one|
-1|0|784||WFLOWCRDREF|[L_WFTASK](../L_WFTASK "L_WFTASK")|LOGICALREF|one-to-one|
+1|0|784||WFLOWCRDREF|[L_WFTASK](../LDDS-Res "L_WFTASK")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

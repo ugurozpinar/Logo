@@ -37,10 +37,10 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|0|887||PERIODREF|[L_STDCOSTPERIOD](../L_STDCOSTPERIOD "L_STDCOSTPERIOD")|LOGICALREF|one-to-one|
-1|0|887||STOCKREF|[L_ITEMS](../L_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
-1|0|887||BOMREF|[L_BOMASTER](../L_BOMASTER "L_BOMASTER")|LOGICALREF|one-to-one|
-1|0|887||BOMREVREF|[L_BOMREVSN](../L_BOMREVSN "L_BOMREVSN")|LOGICALREF|one-to-one|
+1|0|887||PERIODREF|[L_STDCOSTPERIOD](../LG_STDCOSTPERIOD "L_STDCOSTPERIOD")|LOGICALREF|one-to-one|
+1|0|887||STOCKREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
+1|0|887||BOMREF|[L_BOMASTER](../LG_BOMASTER "L_BOMASTER")|LOGICALREF|one-to-one|
+1|0|887||BOMREVREF|[L_BOMREVSN](../LG_BOMREVSN "L_BOMREVSN")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

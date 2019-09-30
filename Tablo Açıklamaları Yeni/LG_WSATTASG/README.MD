@@ -11,8 +11,8 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|0|894||WSREF|[L_WORKSTAT](../L_WORKSTAT "L_WORKSTAT")|LOGICALREF|one-to-one|
-1|0|894||WSATTRIBREF|[L_WSCHCODE](../L_WSCHCODE "L_WSCHCODE")|LOGICALREF|one-to-one|
+1|0|894||WSREF|[L_WORKSTAT](../LG_WORKSTAT "L_WORKSTAT")|LOGICALREF|one-to-one|
+1|0|894||WSATTRIBREF|[L_WSCHCODE](../LG_WSCHCODE "L_WSCHCODE")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

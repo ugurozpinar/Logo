@@ -61,9 +61,9 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-2|0|756||INVOREF|[L_CLFLINE](../L_CLFLINE "L_CLFLINE")|LOGICALREF|one-to-one|
-2|0|756||CASHACCREF|[L_EMUHACC](../L_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
-2|0|756||CASHCENREF|[L_EMCENTER](../L_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
+2|0|756||INVOREF|[L_CLFLINE](../LG_CLFLINE "L_CLFLINE")|LOGICALREF|one-to-one|
+2|0|756||CASHACCREF|[L_EMUHACC](../LG_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
+2|0|756||CASHCENREF|[L_EMCENTER](../LG_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
 2|0|756||PROJECTREF|[L_PROJECT](../L_PROJECT "L_PROJECT")|LOGICALREF|one-to-one|
 
 ## Indexler

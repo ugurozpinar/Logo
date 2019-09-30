@@ -44,7 +44,7 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|3|724||BANKREF|[L_BNCARD](../L_BNCARD "L_BNCARD")|LOGICALREF|one-to-one|
+1|3|724||BANKREF|[L_BNCARD](../LG_BNCARD "L_BNCARD")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

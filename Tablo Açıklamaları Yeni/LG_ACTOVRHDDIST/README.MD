@@ -21,11 +21,11 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|1|918||EXPCENTERREF|[L_EMCENTER](../L_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
-1|1|918||ACCOUNTREF|[L_EMUHACC](../L_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
-1|1|918||OVHDCLNREF|[L_OVRHDCENTERLN](../L_OVRHDCENTERLN "L_OVRHDCENTERLN")|LOGICALREF|one-to-one|
-1|1|918||POSTEDPRDREF|[L_STDCOSTPERIOD](../L_STDCOSTPERIOD "L_STDCOSTPERIOD")|LOGICALREF|one-to-one|
-1|1|918||PARENTREF|[L_ACTOVRHDDIST](../L_ACTOVRHDDIST "L_ACTOVRHDDIST")|LOGICALREF|one-to-one|
+1|1|918||EXPCENTERREF|[L_EMCENTER](../LG_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
+1|1|918||ACCOUNTREF|[L_EMUHACC](../LG_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
+1|1|918||OVHDCLNREF|[L_OVRHDCENTERLN](../LG_OVRHDCENTERLN "L_OVRHDCENTERLN")|LOGICALREF|one-to-one|
+1|1|918||POSTEDPRDREF|[L_STDCOSTPERIOD](../LG_STDCOSTPERIOD "L_STDCOSTPERIOD")|LOGICALREF|one-to-one|
+1|1|918||PARENTREF|[L_ACTOVRHDDIST](../LG_ACTOVRHDDIST "L_ACTOVRHDDIST")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

@@ -28,14 +28,14 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-2|3|737||CSREF|[L_CSCARD](../L_CSCARD "L_CSCARD")|LOGICALREF|one-to-one|
-2|3|737||ROLLREF|[L_CSROLL](../L_CSROLL "L_CSROLL")|LOGICALREF|one-to-one|
-2|3|737||ACCREF|[L_EMUHACC](../L_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
-2|3|737||COSTREF|[L_EMCENTER](../L_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
-2|3|737||CRSACCREF|[L_EMUHACC](../L_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
-2|3|737||CRSCOSTREF|[L_EMCENTER](../L_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
-2|3|737||CARDREF|[L_CLCARD](../L_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|TRCODE=01, 02, 03, 04, 09, 10, 11, 12
-2|3|737||CARDREF|[L_BANKACC](../L_BANKACC "L_BANKACC")|LOGICALREF|one-to-one|TRCODE=05, 06, 07, 08,
+2|3|737||CSREF|[L_CSCARD](../LG_CSCARD "L_CSCARD")|LOGICALREF|one-to-one|
+2|3|737||ROLLREF|[L_CSROLL](../LG_CSROLL "L_CSROLL")|LOGICALREF|one-to-one|
+2|3|737||ACCREF|[L_EMUHACC](../LG_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
+2|3|737||COSTREF|[L_EMCENTER](../LG_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
+2|3|737||CRSACCREF|[L_EMUHACC](../LG_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
+2|3|737||CRSCOSTREF|[L_EMCENTER](../LG_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
+2|3|737||CARDREF|[L_CLCARD](../LG_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|TRCODE=01, 02, 03, 04, 09, 10, 11, 12
+2|3|737||CARDREF|[L_BANKACC](../LG_BANKACC "L_BANKACC")|LOGICALREF|one-to-one|TRCODE=05, 06, 07, 08,
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

@@ -13,8 +13,8 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|0|809||PARAMREF|[L_FRMPRDPARAM](../L_FRMPRDPARAM "L_FRMPRDPARAM")|LOGICALREF|one-to-one|
-1|0|809||BOMMASTERREF|[L_BOMASTER](../L_BOMASTER "L_BOMASTER")|LOGICALREF|one-to-one|
+1|0|809||PARAMREF|[L_FRMPRDPARAM](../LG_FRMPRDPARAM "L_FRMPRDPARAM")|LOGICALREF|one-to-one|
+1|0|809||BOMMASTERREF|[L_BOMASTER](../LG_BOMASTER "L_BOMASTER")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

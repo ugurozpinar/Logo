@@ -33,12 +33,12 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-0|0|865||PRODORDREF|[L_PRODORD](../L_PRODORD "L_PRODORD")|LOGICALREF|one-to-one|
-0|0|865||DISPLINEREF|[L_DISPLINE](../L_DISPLINE "L_DISPLINE")|LOGICALREF|one-to-one|
-0|0|865||LABORREQREF|[L_LABORREQ](../L_LABORREQ "L_LABORREQ")|LOGICALREF|one-to-one|
-0|0|865||EMPREF|[L_EMPLOYEE](../L_EMPLOYEE "L_EMPLOYEE")|LOGICALREF|one-to-one|
-0|0|865||TOOLREQREF|[L_TOOLREQ](../L_TOOLREQ "L_TOOLREQ")|LOGICALREF|one-to-one|
-0|0|865||TOOLREF|[L_ITEMS](../L_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
+0|0|865||PRODORDREF|[L_PRODORD](../LG_PRODORD "L_PRODORD")|LOGICALREF|one-to-one|
+0|0|865||DISPLINEREF|[L_DISPLINE](../LG_DISPLINE "L_DISPLINE")|LOGICALREF|one-to-one|
+0|0|865||LABORREQREF|[L_LABORREQ](../LG_LABORREQ "L_LABORREQ")|LOGICALREF|one-to-one|
+0|0|865||EMPREF|[L_EMPLOYEE](../LG_EMPLOYEE "L_EMPLOYEE")|LOGICALREF|one-to-one|
+0|0|865||TOOLREQREF|[L_TOOLREQ](../LG_TOOLREQ "L_TOOLREQ")|LOGICALREF|one-to-one|
+0|0|865||TOOLREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

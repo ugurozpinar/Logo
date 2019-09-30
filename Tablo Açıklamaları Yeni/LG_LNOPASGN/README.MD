@@ -20,12 +20,12 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|3|844||BOMREVREF|[L_BOMREVSN](../L_BOMREVSN "L_BOMREVSN")|LOGICALREF|one-to-one|
-1|3|844||BOMLINEREF|[L_BOMLINE](../L_BOMLINE "L_BOMLINE")|LOGICALREF|one-to-one|
-1|3|844||ROUTINGREF|[L_ROUTING](../L_ROUTING "L_ROUTING")|LOGICALREF|one-to-one|
-1|3|844||ROUTLINEREF|[L_RTNGLINE](../L_RTNGLINE "L_RTNGLINE")|LOGICALREF|one-to-one|
-1|3|844||ITEMREF|[L_ITEMS](../L_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
-1|3|844||UOMREF|[L_UNITSETL](../L_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
+1|3|844||BOMREVREF|[L_BOMREVSN](../LG_BOMREVSN "L_BOMREVSN")|LOGICALREF|one-to-one|
+1|3|844||BOMLINEREF|[L_BOMLINE](../LG_BOMLINE "L_BOMLINE")|LOGICALREF|one-to-one|
+1|3|844||ROUTINGREF|[L_ROUTING](../LG_ROUTING "L_ROUTING")|LOGICALREF|one-to-one|
+1|3|844||ROUTLINEREF|[L_RTNGLINE](../LG_RTNGLINE "L_RTNGLINE")|LOGICALREF|one-to-one|
+1|3|844||ITEMREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
+1|3|844||UOMREF|[L_UNITSETL](../LG_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

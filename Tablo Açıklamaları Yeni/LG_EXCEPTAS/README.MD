@@ -15,11 +15,11 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-0|0|879|||[L_EMPLOYEE](../L_EMPLOYEE "L_EMPLOYEE")|LOGICALREF|one-to-one|SOURCETYPE = 0
-0|0|879|||[L_EMPGROUP](../L_EMPGROUP "L_EMPGROUP")|LOGICALREF|one-to-one|SOURCETYPE = 1
-0|0|879|||[L_WORKSTAT](../L_WORKSTAT "L_WORKSTAT")|LOGICALREF|one-to-one|SOURCETYPE = 2
-0|0|879|||[L_WSGRPF](../L_WSGRPF "L_WSGRPF")|LOGICALREF|one-to-one|SOURCETYPE = 3
-0|0|879|||[L_EXCEPT](../L_EXCEPT "L_EXCEPT")|LOGICALREF|one-to-one|
+0|0|879|||[L_EMPLOYEE](../LG_EMPLOYEE "L_EMPLOYEE")|LOGICALREF|one-to-one|SOURCETYPE = 0
+0|0|879|||[L_EMPGROUP](../LG_EMPGROUP "L_EMPGROUP")|LOGICALREF|one-to-one|SOURCETYPE = 1
+0|0|879|||[L_WORKSTAT](../LG_WORKSTAT "L_WORKSTAT")|LOGICALREF|one-to-one|SOURCETYPE = 2
+0|0|879|||[L_WSGRPF](../LG_WSGRPF "L_WSGRPF")|LOGICALREF|one-to-one|SOURCETYPE = 3
+0|0|879|||[L_EXCEPT](../LG_EXCEPT "L_EXCEPT")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

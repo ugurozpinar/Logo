@@ -32,7 +32,7 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-0|1|946|||[L_BANKACC](../L_BANKACC "L_BANKACC")|LOGICALREF|one-to-one|
+0|1|946|||[L_BANKACC](../LG_BANKACC "L_BANKACC")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**

@@ -11,8 +11,8 @@
 ## İlişkiler - Relations
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
-1|0|825||CHARASGNREF|[L_CHARASGN](../L_CHARASGN "L_CHARASGN")|LOGICALREF|one-to-one|
-1|0|825||CHARVALREF|[L_CHARVAL](../L_CHARVAL "L_CHARVAL")|LOGICALREF|one-to-one|
+1|0|825||CHARASGNREF|[L_CHARASGN](../LG_CHARASGN "L_CHARASGN")|LOGICALREF|one-to-one|
+1|0|825||CHARVALREF|[L_CHARVAL](../LG_CHARVAL "L_CHARVAL")|LOGICALREF|one-to-one|
 
 ## Indexler
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
