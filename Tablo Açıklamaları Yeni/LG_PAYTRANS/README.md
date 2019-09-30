@@ -5,7 +5,7 @@
 **Level**|**Product ID**|**Field Name**|**Field Type**|**Field Size**|**Field Offset**|**Türkçe Açıklama**|**Expression**
 -----|-----|-----|-----|-----|-----|-----|-----
 2|3|LOGICALREF|Longint|4|0|Ödeme /Tahsilat hareketleri log. Ref.|Payment / Collection Transaction Logical Reference
-2|3|CARDREF|Longint|4|4|Cari Hesap Kartı Ref.|Account Receivable / Payable Card Reference
+2|3|CARDREF|Longint|4|4|<nobr>Cari Hesap Kartı Ref.|Account Receivable / Payable Card Reference</nobr>
 2|3|DATE_|Longint|4|8|Tarih|Date
 2|3|MODULENR|Integer|2|12|Kart Modül Numarası ; 10 Kasa|Card Module Number ;10 Safe Deposit
 2|3|SIGN|Integer|2|14|Borç/Alacak İşareti|Debit / Credit Sign
