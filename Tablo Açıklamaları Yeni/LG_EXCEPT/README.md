@@ -30,6 +30,7 @@
 1|1|RECSTATUS|Integer|2|120|Kayıt Durumu|Record Status
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|1|804||SOURCEREF|[L_EMPLOYEE](../LG_EMPLOYEE "L_EMPLOYEE")|LOGICALREF|one-to-one|SOURCETYPE = 0
@@ -38,6 +39,7 @@
 1|1|804||SOURCEREF|[L_WSGRPF](../LG_WSGRPF "L_WSGRPF")|LOGICALREF|one-to-one|SOURCETYPE = 3
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|1|Index1|Unique + Not Null|1|LOGICALREF|Ascending

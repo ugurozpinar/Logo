@@ -46,6 +46,7 @@
 1|3|INFDIFFACCREF|Longint|4|272|Enflasyon Fark Hesabı Ref.|Inflation Difference Account Reference
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|3|727||CENTERREF|[L_EMCENTER](../LG_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
@@ -53,6 +54,7 @@
 1|3|727||CURRDIFFDEBTREF|[L_EMUHACC](../LG_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|3|Index1|Unique + Not Null|1|LOGICALREF|Ascending

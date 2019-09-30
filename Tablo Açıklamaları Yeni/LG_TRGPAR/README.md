@@ -14,10 +14,12 @@
 1|3|SRETURNEFFECTORDER|Byte|1|10|İade hareketi siparişi etkileyecek (satış)|Return Transactions Will be Effected Order (Sales & Distribution)
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|3|Index1|Unique + Not Null|1|LOGICALREF|Ascending

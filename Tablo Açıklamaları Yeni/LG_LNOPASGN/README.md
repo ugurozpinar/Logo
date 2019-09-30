@@ -18,6 +18,7 @@
 1|3|WFSTATUS|Longint|4|44|Kullanımda Değil|Not In Use
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|3|844||BOMREVREF|[L_BOMREVSN](../LG_BOMREVSN "L_BOMREVSN")|LOGICALREF|one-to-one|
@@ -28,6 +29,7 @@
 1|3|844||UOMREF|[L_UNITSETL](../LG_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|3|Index1|Unique + Not Null|1|LOGICALREF|Ascending

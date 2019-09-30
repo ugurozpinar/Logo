@@ -189,6 +189,7 @@
 2|3|STATUS|Integer|2|995|Durumu|Status
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 2|3|709||STOCKREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|LINETYPE = 0,1,5,6,7,9,10
@@ -249,6 +250,7 @@
 2|3|709||PROJECTREF|[L_PROJECT](../L_PROJECT "L_PROJECT")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 2|3|Index1|Unique + Not Null|1|LOGICALREF|Ascending

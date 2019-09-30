@@ -24,6 +24,7 @@
 2|3|CANCELLED|Byte|1|67|İptal Edilmiş|Cancelled
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 2|3|839||ITEMREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|ASGNTYPE=1
@@ -38,6 +39,7 @@
 2|3|839||QCASGNLOGICREF|[L_QASGN](../LG_QASGN "L_QASGN")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 2|3|Index1|Unique + Not Null|1|LOGICALREF|Ascending

@@ -62,6 +62,7 @@
 2|3|PROJECTREF|Longint|4|397|Proje Referansı|PROJECT Reference
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 2|3|736||CARDREF|[L_CLCARD](../LG_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|TRCODE=01, 02, 03, 04, 09, 10, 11, 12
@@ -73,6 +74,7 @@
 2|3|736||PROJECTREF|[L_PROJECT](../L_PROJECT "L_PROJECT")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 2|3|Index1|Unique + Not Null|1|LOGICALREF|Ascending

@@ -37,6 +37,7 @@
 0|0|PRINTCNT|Integer|2|237|Basılmış Toplam Hesap|Total Count of Printed
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 0|0|967||FICHEREF|[L_ORFICHE](../LG_ORFICHE "L_ORFICHE")|LOGICALREF|one-to-one|If FicheType = 0
@@ -44,6 +45,7 @@
 0|0|967||CLIENTREF|[L_CLCARD](../LG_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 0|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

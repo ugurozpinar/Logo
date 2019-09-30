@@ -47,11 +47,13 @@
 2|3|REPORDRISKTOTALSUGG|Double|8|277|RD sipariş risk toplamı (öneri)|Reporting Currency Order Credit Limit (Quotation)
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 2|3|718||CLCARDREF|[L_CLCARD](../LG_CLCARD "L_CLCARD")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 2|3|Index1|Unique + Not Null|1|LOGICALREF|Ascending

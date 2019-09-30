@@ -38,12 +38,14 @@
 0|0|WFLOWCRDREF|Longint|4|117|İş Akış Kartı Referansı|WFTASK Reference
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 0|0|926||DEMANDREF|[L_MRPHEAD](../LG_MRPHEAD "L_MRPHEAD")|LOGICALREF|one-to-one|
 0|0|926||WFLOWCRDREF|[L_WFTASK](../LDDS-Res "L_WFTASK")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 0|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

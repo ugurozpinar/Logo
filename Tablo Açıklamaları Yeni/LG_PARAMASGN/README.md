@@ -10,12 +10,14 @@
 1|0|PARAMVAL|Double|8|12|Parametre değeri|Parameter Value
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|0|855||BOMPARAMREF|[L_BOMPARAM](../LG_BOMPARAM "L_BOMPARAM")|LOGICALREF|one-to-one|
 1|0|855||PRODORDREF|[L_PRODORD](../LG_PRODORD "L_PRODORD")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

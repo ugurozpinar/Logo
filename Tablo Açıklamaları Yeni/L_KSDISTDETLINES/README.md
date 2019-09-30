@@ -32,6 +32,7 @@
 0|0|DISTTEMPLNTYP|Integer|2|103|Kasa muhasebe dağıtım satır tipi ;1: Kasa;2: Hareket;3: KDV|Safe Deposit G/L Distribution Line Type ;1: Safe Deposit;2: Transaction;3: VAT
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 0|0|940||CARDREF|[L_KSCARD](../LG_KSCARD "L_KSCARD")|LOGICALREF|one-to-one|
@@ -41,6 +42,7 @@
 0|0|940||PROJECTREF|[L_PROJECT](../L_PROJECT "L_PROJECT")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 0|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

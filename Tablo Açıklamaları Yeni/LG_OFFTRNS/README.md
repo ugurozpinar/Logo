@@ -112,6 +112,7 @@
 1|0|WITHPAYTRANS|Byte|1|551|Ödemeli / Ödemesiz?|With Payment / Without Payment?
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|0|785||STOCKREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|LINETYPE = 0,5, 6, 7
@@ -131,6 +132,7 @@
 1|0|785||STOCKREF|[L_FAREGIST](../LG_FAREGIST "L_FAREGIST")|LOGICALREF|one-to-one|LINETYPE = 8
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

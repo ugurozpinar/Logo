@@ -12,10 +12,12 @@
 0|0|TABLETY|Integer|2|28|Tablo türü ;0: Normal;1: Alternatif|Table Type ;0: Normal;1: Alternative
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 0|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

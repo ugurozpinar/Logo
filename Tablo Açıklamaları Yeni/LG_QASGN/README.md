@@ -32,6 +32,7 @@
 1|0|TOOLREF|Longint|4|144|Araç ref.|Tool Reference
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|0|838||SETREF|[L_QCSET](../LG_QCSET "L_QCSET")|LOGICALREF|one-to-one|
@@ -43,6 +44,7 @@
 1|0|838||ASGNREF|[L_OPERTION](../LG_OPERTION "L_OPERTION")|LOGICALREF|one-to-one|ASGNTYPE=2
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

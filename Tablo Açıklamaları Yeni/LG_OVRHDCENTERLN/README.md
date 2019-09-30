@@ -21,6 +21,7 @@
 1|1|RDTOTAL|Double|8|70|Raporlama dövizi - Toplam|Reporting Currency - Total
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|1|910||OVRHDCENTERREF|[L_OVRHDCENTER](../LG_OVRHDCENTER "L_OVRHDCENTER")|LOGICALREF|one-to-one|
@@ -30,6 +31,7 @@
 1|1|910||DISTRATEREF|[L_OVHCDISTRATE](../LG_OVHCDISTRATE "L_OVHCDISTRATE")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|1|Index1|Unique + Not Null|1|LOGICALREF|Ascending

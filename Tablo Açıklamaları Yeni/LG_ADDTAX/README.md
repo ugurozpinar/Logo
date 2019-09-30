@@ -24,10 +24,12 @@
 1|1|CAPIBLOCK_MODIFIEDSEC|Integer|2|159|Değiştirilme Saniyesi|Modified Second
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|1|Index1|Unique + Not Null|1|LOGICALREF|Ascending

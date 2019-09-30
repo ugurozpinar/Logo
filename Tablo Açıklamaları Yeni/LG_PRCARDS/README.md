@@ -173,6 +173,7 @@
 1|2|ORDFCMODUL|Integer|2|2163|Siparişte kullanım yeri ; 1 Alınan sipariş; 2 Verilen sipariş|Usage Point at Order ;1 Sales Order;2 Purchase Order
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|2|710||STOCKREF|[L_ITEMS](../LG_ITEMS "L_ITEMS")|LOGICALREF|one-to-one|
@@ -208,6 +209,7 @@
 1|2|710||PROMLINES15_UOMREF|[L_UNITSETL](../LG_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|2|Index1|Unique + Not Null|1|LOGICALREF|Ascending

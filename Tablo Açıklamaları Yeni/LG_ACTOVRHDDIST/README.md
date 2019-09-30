@@ -19,6 +19,7 @@
 1|1|ACCOUNTED|Byte|1|66|Muhasebeleşmiş|Accounted
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|1|918||EXPCENTERREF|[L_EMCENTER](../LG_EMCENTER "L_EMCENTER")|LOGICALREF|one-to-one|
@@ -28,6 +29,7 @@
 1|1|918||PARENTREF|[L_ACTOVRHDDIST](../LG_ACTOVRHDDIST "L_ACTOVRHDDIST")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|1|Index1|Unique + Not Null|1|LOGICALREF|Ascending

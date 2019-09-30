@@ -45,6 +45,7 @@
 0|0|RECORDCUROP|Integer|2|629||
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 0|0|975||WFCARDREF|[L_WORKFLOWCARD](../LG_WORKFLOWCARD "L_WORKFLOWCARD")|LOGICALREF|one-to-one|
@@ -60,6 +61,7 @@
 0|0|975||PARENTTASKREF|[L_WFTASK](../LDDS-Res "L_WFTASK")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 0|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

@@ -10,6 +10,7 @@
 1|0|OPREQREF|Longint|4|12|Operasyon İhtiyaçları Ref.|Operation Requirement Reference
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|0|861||WSATTASGREF|[L_WSATTASG](../LG_WSATTASG "L_WSATTASG")|LOGICALREF|one-to-one|
@@ -17,6 +18,7 @@
 1|0|861||OPREQREF|[L_OPRTREQ](../LG_OPRTREQ "L_OPRTREQ")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

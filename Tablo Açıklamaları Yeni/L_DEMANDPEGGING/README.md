@@ -35,6 +35,7 @@
 0|0|PROJECTREF|Longint|4|103|Proje Referansı|PROJECT Reference
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 0|0|930||DEMANDLINEREF|[L_DEMANDLINE](../LG_DEMANDLINE "L_DEMANDLINE")|LOGICALREF|one-to-one|
@@ -43,6 +44,7 @@
 0|0|930||PROJECTREF|[L_PROJECT](../L_PROJECT "L_PROJECT")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 0|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

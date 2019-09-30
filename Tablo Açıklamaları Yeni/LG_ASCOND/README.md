@@ -22,6 +22,7 @@
 1|3|ORGLOGICREF|Longint|4|331|Orijinal Kayıt Log. Ref.|Original Record Logical Reference
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|3|743||CARDREF|[L_DECARDS](../LG_DECARDS "L_DECARDS")|LOGICALREF|one-to-one|LINETYPE = 1
@@ -32,6 +33,7 @@
 1|3|743||PAYCODES|[L_PAYPLANS](../LG_PAYPLANS "L_PAYPLANS")|CODE|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|3|Index1|Unique + Not Null|1|LOGICALREF|Ascending

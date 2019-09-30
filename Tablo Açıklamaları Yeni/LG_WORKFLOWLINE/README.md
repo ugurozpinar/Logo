@@ -24,6 +24,7 @@
 0|0|PROCESSTYPE|Integer|2|544|Hareket türü|Transaction Type
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 0|0|970||WFCARDREF|[L_WORKFLOWCARD](../LG_WORKFLOWCARD "L_WORKFLOWCARD")|LOGICALREF|one-to-one|
@@ -31,6 +32,7 @@
 0|0|970||WARNROLEREF|[L_WFLOWROLE](../LG_WFLOWROLE "L_WFLOWROLE")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 0|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

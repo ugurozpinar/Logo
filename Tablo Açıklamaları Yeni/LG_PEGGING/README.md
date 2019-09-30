@@ -25,6 +25,7 @@
 1|1|PDEMLINEREF|Longint|4|69|Talep Satırı Log. Ref.|DEMANDLINE LOGICALREF
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|1|858||PRODORDREF|[L_PRODORD](../LG_PRODORD "L_PRODORD")|LOGICALREF|one-to-one|
@@ -38,6 +39,7 @@
 1|1|858||MRPPROPREF|[L_MRPPROPOSAL](../LG_MRPPROPOSAL "L_MRPPROPOSAL")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|1|Index1|Unique + Not Null|1|LOGICALREF|Ascending

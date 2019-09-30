@@ -14,12 +14,14 @@
 1|0|LINENO_|Integer|2|91|Satır Numarası|Line Number
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|0|837||SETREF|[L_QCSET](../LG_QCSET "L_QCSET")|LOGICALREF|one-to-one|
 1|0|837||LINEREF|[L_QCSLINE](../LG_QCSLINE "L_QCSLINE")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

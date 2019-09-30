@@ -10,10 +10,12 @@
 0|0|DISTTYPE|Integer|2|12|Distribution Type ;1: Material Value;2: Material Quantity;3: Weight;4: Volume;5: Rate;6: Amount03|Distribution Type ;1: Material Value;2: Material Quantity;3: Weight;4: Volume;5: Rate;6: Amount03
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 0|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

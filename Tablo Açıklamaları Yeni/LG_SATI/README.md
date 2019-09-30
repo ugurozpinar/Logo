@@ -14,6 +14,7 @@
 0|0|FILTERREF|Longint|4|41|Satış etkinlikleri ağacı malzeme filtreleri ref.|Sales Act Tree Item Filters Reference
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 0|0|789||USERID|[L_SLSMAN](../LG_SLSMAN "L_SLSMAN")|LOGICALREF|one-to-one|
@@ -21,6 +22,7 @@
 0|0|789||FILTERREF|[L_SATIFILTER](../LG_SATIFILTER "L_SATIFILTER")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 0|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

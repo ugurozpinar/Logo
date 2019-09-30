@@ -19,6 +19,7 @@
 1|0|DISCAMOUNT|Double|8|48|İndirim Tutarı|Discount Amount
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|0|920||ADDTAXREF|[L_ADDTAX](../LG_ADDTAX "L_ADDTAX")|LOGICALREF|one-to-one|
@@ -26,6 +27,7 @@
 1|0|920||UNITREF|[L_UNITSETL](../LG_UNITSETL "L_UNITSETL")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

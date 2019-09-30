@@ -57,6 +57,7 @@
 1|0|ORDLNWITHPAY|Byte|1|258|Ödemeli sipariş satırı|Order Line with payment
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|0|904||DISTORDERREF|[L_DISTORD](../LG_DISTORD "L_DISTORD")|LOGICALREF|one-to-one|
@@ -75,6 +76,7 @@
 1|0|904||CMPGLINEREF|[L_CMPGNLINE](../LG_CMPGNLINE "L_CMPGNLINE")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

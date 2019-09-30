@@ -9,12 +9,14 @@
 1|0|WSATTRIBVALREF|Longint|4|8|Özellik Değeri Referansı|Characteristic Value Reference
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|0|895||WSATTRIBASGNREF|[L_WSATTASG](../LG_WSATTASG "L_WSATTASG")|LOGICALREF|one-to-one|
 1|0|895||WSATTRIBVALREF|[L_WSCHVAL](../LG_WSCHVAL "L_WSCHVAL")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

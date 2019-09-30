@@ -11,12 +11,14 @@
 1|0|PARAMDEFAULT|Double|8|14|Ürün Reçetesi Sabiti Öndeğeri|BOM Constants Default
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 1|0|809||PARAMREF|[L_FRMPRDPARAM](../LG_FRMPRDPARAM "L_FRMPRDPARAM")|LOGICALREF|one-to-one|
 1|0|809||BOMMASTERREF|[L_BOMASTER](../LG_BOMASTER "L_BOMASTER")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 1|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

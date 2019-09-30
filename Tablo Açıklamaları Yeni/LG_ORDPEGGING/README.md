@@ -28,10 +28,12 @@
 0|1|ORGLOGICREF|Longint|4|73|Orijinal Kayıt Log. Ref.|Original Record Logical Reference
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 0|1|Index1|Unique + Not Null|1|LOGICALREF|Ascending

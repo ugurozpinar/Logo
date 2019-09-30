@@ -34,6 +34,7 @@
 2|0|RECSTATUS|Integer|2|182|Kayıt Durumu|Record Status
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 2|0|917||FICHEREF|[L_REFLECT](../LG_REFLECT "L_REFLECT")|LOGICALREF|one-to-one|
@@ -44,6 +45,7 @@
 2|0|917||INACCREF|[L_EMUHACC](../LG_EMUHACC "L_EMUHACC")|LOGICALREF|one-to-one|
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 2|0|Index1|Unique + Not Null|1|LOGICALREF|Ascending

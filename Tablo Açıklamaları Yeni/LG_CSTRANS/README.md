@@ -26,6 +26,7 @@
 2|3|OPSTAT|Integer|2|50|Hareket durumu|Transaction Status
 
 ## İlişkiler - Relations
+
 **Level**|**Product ID**|**Resource ID**|**Special Code**|**Source Field**|**Destination Table**|**Destination Field**|**Relation Type**|**Extra Condition**
 -----|-----|-----|-----|-----|-----|-----|-----|-----
 2|3|737||CSREF|[L_CSCARD](../LG_CSCARD "L_CSCARD")|LOGICALREF|one-to-one|
@@ -38,6 +39,7 @@
 2|3|737||CARDREF|[L_BANKACC](../LG_BANKACC "L_BANKACC")|LOGICALREF|one-to-one|TRCODE=05, 06, 07, 08,
 
 ## Indexler
+
 **Level**|**Product ID**|**Index Name**|**Attributes**|**Segment No**|**Segment Field**|**Sense**
 -----|-----|-----|-----|-----|-----|-----
 2|3|Index1|Unique + Not Null|1|LOGICALREF|Ascending
