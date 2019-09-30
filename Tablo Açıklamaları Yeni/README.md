@@ -1,254 +1,255 @@
 **Level**|**Product ID**|**Resource ID**|**Resource Name**|**Resource Description**|**Table ID**|**Table Description**|**Module Nr**|**Field Count**|**Index Count**|**Relation Count**
------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----        
-    1|  3|  701|  [LG_ITEMS](LG_ITEMS "LG_ITEMS")|  Item Cards|  701|  L_ITEMS|  0|  127|  18|  15        
-    1|  3|  702|  [LG_SRVCARD](LG_SRVCARD "LG_SRVCARD")|  Service Cards|  702|  L_SRVCARD|  0|  27|  6|  2        
-    2|  3|  703|  [LG_SRVTOT](LG_SRVTOT "LG_SRVTOT")|  Monthly Service Totals|  703|  L_SRVTOT|  0|  8|  2|  1        
-    0|  0|  704|  [L_STBCODE](L_STBCODE "L_STBCODE")|  |  704|  L_STBCODE|  0|  4|  3|  1        
-    2|  0|  705|  [LG_STINVENS](LG_STINVENS "LG_STINVENS")|  Item Purch/Sls Monthly Totals|  705|  L_STINVENS|  0|  11|  2|  1        
-    1|  3|  707|  [LG_STCOMPLN](LG_STCOMPLN "LG_STCOMPLN")|  Mixed Case Lines|  707|  L_STCOMPLN|  0|  11|  3|  3        
-    2|  3|  708|  [LG_STFICHE](LG_STFICHE "LG_STFICHE")|  Item Vouchers|  708|  L_STFICHE|  0|  111|  15|  19        
-    2|  3|  709|  [LG_STLINE](LG_STLINE "LG_STLINE")|  Item Transactions|  709|  L_STLINE|  0|  183|  20|  56        
-    1|  2|  710|  [LG_PRCARDS](LG_PRCARDS "LG_PRCARDS")|  Promotion Cards|  710|  L_PRCARDS|  0|  167|  6|  31        
-    1|  3|  711|  [LG_DECARDS](LG_DECARDS "LG_DECARDS")|  Discount / Surcharge Cards|  711|  L_DECARDS|  0|  27|  5|  0        
-    2|  0|  712|  [LG_ORFICHE](LG_ORFICHE "LG_ORFICHE")|  Order Vouchers|  712|  L_ORFICHE|  0|  80|  6|  12        
-    2|  3|  713|  [LG_ORFLINE](LG_ORFLINE "LG_ORFLINE")|  Order Transactions|  713|  L_ORFLINE|  0|  107|  10|  34        
-    2|  3|  714|  [LG_INVOICE](LG_INVOICE "LG_INVOICE")|  Invoices|  714|  L_INVOICE|  0|  97|  9|  15        
-    1|  3|  715|  [LG_CLCARD](LG_CLCARD "LG_CLCARD")|  Accounts Receivable / Payable|  715|  L_CLCARD|  0|  118|  6|  4        
-    2|  3|  716|  [LG_CLFLINE](LG_CLFLINE "LG_CLFLINE")|  AR / AP Transactions|  716|  L_CLFLINE|  0|  67|  7|  23        
-    1|  3|  717|  [LG_CLINTEL](LG_CLINTEL "LG_CLINTEL")|  AR / AP Additional Notes|  717|  L_CLINTEL|  0|  4|  2|  1        
-    2|  3|  718|  [LG_CLRNUMS](LG_CLRNUMS "LG_CLRNUMS")|  AR / AP Credits|  718|  L_CLRNUMS|  0|  41|  2|  1        
-    2|  3|  719|  [LG_CLTOTFIL](LG_CLTOTFIL "LG_CLTOTFIL")|  Monthly AR /AP Totals|  719|  L_CLTOTFIL|  0|  7|  2|  1        
-    1|  3|  720|  [LG_PAYPLANS](LG_PAYPLANS "LG_PAYPLANS")|  Payment Plans|  720|  L_PAYPLANS|  0|  28|  4|  2        
-    1|  3|  721|  [LG_PAYLINES](LG_PAYLINES "LG_PAYLINES")|  Payment Plan Lines|  721|  L_PAYLINES|  0|  17|  2|  3        
-    2|  3|  722|  [LG_PAYTRANS](LG_PAYTRANS "LG_PAYTRANS")|  Payment/Collection Transaction|  722|  L_PAYTRANS|  0|  58|  4|  15        
-    1|  3|  723|  [LG_BNCARD](LG_BNCARD "LG_BNCARD")|  Banks|  723|  L_BNCARD|  0|  37|  5|  0        
-    1|  3|  724|  [LG_BANKACC](LG_BANKACC "LG_BANKACC")|  Bank Accounts|  724|  L_BANKACC|  0|  36|  6|  1        
-    2|  3|  725|  [LG_BNFLINE](LG_BNFLINE "LG_BNFLINE")|  Bank Transactions|  725|  L_BNFLINE|  0|  86|  9|  18        
-    2|  3|  726|  [LG_BNTOTFIL](LG_BNTOTFIL "LG_BNTOTFIL")|  Monthly Bank Totals|  726|  L_BNTOTFIL|  0|  7|  2|  1        
-    1|  3|  727|  [LG_EMUHACC](LG_EMUHACC "LG_EMUHACC")|  General Ledger Accounts|  727|  L_EMUHACC|  0|  40|  5|  3        
-    2|  3|  728|  [LG_EMFICHE](LG_EMFICHE "LG_EMFICHE")|  General Ledger Vouchers|  728|  L_EMFICHE|  0|  48|  4|  0        
-    2|  3|  729|  [LG_EMFLINE](LG_EMFLINE "LG_EMFLINE")|  General Ledger Transactions|  729|  L_EMFLINE|  0|  36|  5|  3        
-    2|  3|  730|  [LG_EMUHTOT](LG_EMUHTOT "LG_EMUHTOT")|  Monthly General Ledger Totals |  730|  L_EMUHTOT|  0|  12|  2|  1        
-    0|  0|  731|  [L_STNUMS](L_STNUMS "L_STNUMS")|  |  731|  L_STNUMS|  0|  9|  2|  0        
-    1|  3|  732|  [LG_EMCENTER](LG_EMCENTER "LG_EMCENTER")|  Overhead Pools|  732|  L_EMCENTER|  0|  23|  5|  0        
-    1|  3|  733|  [LG_KSCARD](LG_KSCARD "LG_KSCARD")|  Safe Deposits|  733|  L_KSCARD|  0|  23|  5|  0        
-    2|  0|  734|  [LG_KSLINES](LG_KSLINES "LG_KSLINES")|  Safe Deposit Transactions|  734|  L_KSLINES|  0|  71|  7|  15        
-    2|  3|  735|  [LG_CSCARD](LG_CSCARD "LG_CSCARD")|  Check / P. Note Cards|  735|  L_CSCARD|  0|  66|  6|  2        
-    2|  3|  736|  [LG_CSROLL](LG_CSROLL "LG_CSROLL")|  Check / P. Note Slips|  736|  L_CSROLL|  0|  56|  4|  7        
-    2|  3|  737|  [LG_CSTRANS](LG_CSTRANS "LG_CSTRANS")|  Check / P. Note Transactions|  737|  L_CSTRANS|  0|  20|  4|  8        
-    1|  3|  738|  [LG_PRCLIST](LG_PRCLIST "LG_PRCLIST")|  Purchase / Sales Prices|  738|  L_PRCLIST|  0|  44|  7|  4        
-    1|  3|  739|  [LG_ACCCODES](LG_ACCCODES "LG_ACCCODES")|  Integration Connection Codes|  739|  L_ACCCODES|  0|  22|  4|  3        
-    1|  3|  740|  [LG_SPECODES](LG_SPECODES "LG_SPECODES")|  Auxiliary Codes|  740|  L_SPECODES|  0|  10|  2|  0        
-    2|  3|  741|  [LG_CSHTOTS](LG_CSHTOTS "LG_CSHTOTS")|  Safe Deposit Monthly Totals|  741|  L_CSHTOTS|  0|  7|  2|  1        
-    2|  3|  742|  [LG_PRODUCER](LG_PRODUCER "LG_PRODUCER")|  Producer Invoices|  742|  L_PRODUCER|  0|  35|  2|  17        
-    1|  3|  743|  [LG_ASCOND](LG_ASCOND "LG_ASCOND")|  Purchase / Sales Conditions|  743|  L_ASCOND|  0|  16|  2|  6        
-    0|  0|  744|  [LG_FINTABLEITEM](LG_FINTABLEITEM "LG_FINTABLEITEM")|  Financial Table Definitions|  744|  L_FINTABLEITEM|  0|  24|  1|  0        
-    2|  3|  745|  [LG_TRANSAC](LG_TRANSAC "LG_TRANSAC")|  Company Period Informations|  745|  L_TRANSAC|  0|  26|  1|  0        
-    1|  0|  746|  [LG_LOGREP](LG_LOGREP "LG_LOGREP")|  LOG Records|  746|  L_LOGREP|  0|  7|  2|  0        
-    1|  3|  747|  [LG_FAREGIST](LG_FAREGIST "LG_FAREGIST")|  Fixed Asset Records|  747|  L_FAREGIST|  0|  85|  3|  2        
-    1|  3|  748|  [LG_FAYEAR](LG_FAYEAR "LG_FAYEAR")|  Fixed Asset Annual Records|  748|  L_FAYEAR|  0|  50|  2|  2        
-    1|  1|  749|  [LG_SYSLOG](LG_SYSLOG "LG_SYSLOG")|  System Logs|  749|  L_SYSLOG|  0|  19|  3|  0        
-    0|  0|  750|  [L_PERMFILE](L_PERMFILE "L_PERMFILE")|  |  750|  L_PERMFILE|  0|  11|  2|  0        
-    2|  3|  751|  [LG_SLTRANS](LG_SLTRANS "LG_SLTRANS")|  Lot / Serial Transactions|  751|  L_SLTRANS|  0|  58|  6|  11        
-    2|  3|  753|  [LG_SRVNUMS](LG_SRVNUMS "LG_SRVNUMS")|  Service Totals|  753|  L_SRVNUMS|  0|  7|  2|  1        
-    2|  0|  754|  [LG_BNFICHE](LG_BNFICHE "LG_BNFICHE")|  Bank Vouchers|  754|  L_BNFICHE|  0|  45|  4|  2        
-    1|  3|  755|  [LG_CRDACREF](LG_CRDACREF "LG_CRDACREF")|  Card - General Ledger Codes|  755|  L_CRDACREF|  0|  10|  2|  9        
-    2|  0|  756|  [LG_CLFICHE](LG_CLFICHE "LG_CLFICHE")|  AR / AP Vouchers|  756|  L_CLFICHE|  0|  53|  5|  4        
-    2|  3|  757|  [LG_STINVTOT](LG_STINVTOT "LG_STINVTOT")|  Daily Item Warehouse Totals|  757|  L_STINVTOT|  0|  38|  3|  1        
-    1|  0|  758|  [LG_SHIPINFO](LG_SHIPINFO "LG_SHIPINFO")|  Delivery Informations|  758|  L_SHIPINFO|  0|  39|  5|  1        
-    0|  0|  759|  [L_GNTOTST](L_GNTOTST "L_GNTOTST")|  |  759|  L_GNTOTST|  0|  37|  3|  0        
-    0|  0|  760|  [L_GNTOTCL](L_GNTOTCL "L_GNTOTCL")|  |  760|  L_GNTOTCL|  0|  5|  2|  0        
-    0|  0|  761|  [L_GNTOTBN](L_GNTOTBN "L_GNTOTBN")|  |  761|  L_GNTOTBN|  0|  5|  2|  0        
-    0|  0|  762|  [L_GNTOTCSH](L_GNTOTCSH "L_GNTOTCSH")|  |  762|  L_GNTOTCSH|  0|  5|  2|  0        
-    0|  3|  770|  [LG_SLSMAN](LG_SLSMAN "LG_SLSMAN")|  Sales Representatives|  770|  L_SLSMAN|  0|  26|  6|  0        
-    0|  0|  771|  [LG_SLSCLREL](LG_SLSCLREL "LG_SLSCLREL")|  Sales Representatives-Accounts|  771|  L_SLSCLREL|  0|  6|  2|  2        
-    1|  3|  772|  [LG_ROUTE](LG_ROUTE "LG_ROUTE")|  Sales Routes|  772|  L_ROUTE|  0|  21|  4|  1        
-    1|  3|  773|  [LG_ROUTETRS](LG_ROUTETRS "LG_ROUTETRS")|  Sales Route Lines|  773|  L_ROUTETRS|  0|  4|  3|  2        
-    1|  3|  774|  [LG_TARGETS](LG_TARGETS "LG_TARGETS")|  Sales Representative Targets|  774|  L_TARGETS|  0|  27|  4|  3        
-    2|  3|  775|  [LG_FOLDER](LG_FOLDER "LG_FOLDER")|  Document Directory Information|  775|  L_FOLDER|  0|  3|  2|  0        
-    0|  0|  776|  [LG_INDUSTRY](LG_INDUSTRY "LG_INDUSTRY")|  Sectors|  776|  L_INDUSTRY|  0|  18|  3|  0        
-    0|  0|  777|  [LG_CSTVND](LG_CSTVND "LG_CSTVND")|  Customer / Vendor Informations|  777|  L_CSTVND|  0|  44|  5|  0        
-    0|  0|  778|  [LG_CVINDASG](LG_CVINDASG "LG_CVINDASG")|  Customer/Vendor-Sector Asgn|  778|  L_CVINDASG|  0|  11|  2|  2        
-    1|  0|  779|  [LG_CVARPASG](LG_CVARPASG "LG_CVARPASG")|  Customer / Vendor AR / AP Asgn|  779|  L_CVARPASG|  0|  8|  2|  2        
-    0|  0|  780|  [LG_CONTACTS](LG_CONTACTS "LG_CONTACTS")|  Customer / Vendor Connections |  780|  L_CONTACTS|  0|  41|  3|  1        
-    1|  0|  781|  [LG_SLSOPPOR](LG_SLSOPPOR "LG_SLSOPPOR")|  Sales Opportunities|  781|  L_SLSOPPOR|  0|  32|  5|  3        
-    1|  0|  782|  [LG_SLSACTIV](LG_SLSACTIV "LG_SLSACTIV")|  Sales Activities|  782|  L_SLSACTIV|  0|  32|  4|  4        
-    1|  0|  783|  [LG_OFFER](LG_OFFER "LG_OFFER")|  Offers|  783|  L_OFFER|  0|  19|  4|  4        
-    1|  0|  784|  [LG_OFFALTER](LG_OFFALTER "LG_OFFALTER")|  Offer Alternatives|  784|  L_OFFALTER|  0|  80|  4|  4        
-    1|  0|  785|  [LG_OFFTRNS](LG_OFFTRNS "LG_OFFTRNS")|  Offer Transactions|  785|  L_OFFTRNS|  0|  106|  3|  15        
-    0|  0|  786|  [LG_CNTSLSMASG](LG_CNTSLSMASG "LG_CNTSLSMASG")|  Contacts-Sales Rep. Asgn.|  786|  L_CNTSLSMASG|  0|  7|  2|  2        
-    0|  0|  787|  [LG_ACTPEPL](LG_ACTPEPL "LG_ACTPEPL")|  People Of Activities|  787|  L_ACTPEPL|  0|  19|  3|  1        
-    0|  0|  788|  [LG_SLSFILES](LG_SLSFILES "LG_SLSFILES")|  Files Of Activities|  788|  L_SLSFILES|  0|  19|  2|  1        
-    0|  0|  789|  [LG_SATI](LG_SATI "LG_SATI")|  Sales Activities Tree Items|  789|  L_SATI|  0|  8|  3|  3        
-    0|  0|  790|  [LG_SATIFILTER](LG_SATIFILTER "LG_SATIFILTER")|  Sales Act Tree Item Filters|  790|  L_SATIFILTER|  0|  21|  3|  0        
-    1|  1|  791|  [LG_SLSCLREL](LG_SLSCLREL "LG_SLSCLREL")|  Sales Representative-Accounts|  791|  L_SLSCLREL|  0|  10|  4|  2        
-    1|  0|  792|  [LG_EXPCREDITCRD](LG_EXPCREDITCRD "LG_EXPCREDITCRD")|  LG_EXPCREDITCRD|  792|  L_EXPCREDITCRD|  0|  31|  3|  0        
-    1|  0|  793|  [LG_EXPCREDITLN](LG_EXPCREDITLN "LG_EXPCREDITLN")|  |  793|  L_EXPCREDITLN|  0|  14|  2|  0        
-    0|  0|  795|  [L_DIIB](L_DIIB "L_DIIB")|  |  795|  L_DIIB|  0|  26|  3|  0        
-    0|  0|  796|  [L_DIIBLINE](L_DIIBLINE "L_DIIBLINE")|  |  796|  L_DIIBLINE|  0|  16|  3|  0        
-    0|  0|  797|  [L_DIIBBOMLINE](L_DIIBBOMLINE "L_DIIBBOMLINE")|  |  797|  L_DIIBBOMLINE|  0|  10|  3|  0        
-    1|  0|  800|  [LG_MRPHEAD](LG_MRPHEAD "LG_MRPHEAD")|  MRP and MPS Headers|  800|  L_MRPHEAD|  0|  35|  4|  0        
-    1|  0|  801|  [LG_MRPLINE](LG_MRPLINE "LG_MRPLINE")|  MRP Lines|  801|  L_MRPLINE|  0|  24|  2|  5        
-    1|  0|  802|  [LG_MRPPEGGING](LG_MRPPEGGING "LG_MRPPEGGING")|  MRP Assignments|  802|  L_MRPPEGGING|  0|  10|  3|  11        
-    1|  0|  803|  [LG_MRPPROPOSAL](LG_MRPPROPOSAL "LG_MRPPROPOSAL")|  MRP Proposals|  803|  L_MRPPROPOSAL|  0|  14|  2|  7        
-    1|  1|  804|  [LG_EXCEPT](LG_EXCEPT "LG_EXCEPT")|  Exceptions|  804|  L_EXCEPT|  0|  24|  3|  4        
-    1|  3|  805|  [LG_EMPGROUP](LG_EMPGROUP "LG_EMPGROUP")|  Employee Groups|  805|  L_EMPGROUP|  0|  29|  5|  2        
-    1|  3|  806|  [LG_EMPLOYEE](LG_EMPLOYEE "LG_EMPLOYEE")|  Employees|  806|  L_EMPLOYEE|  0|  33|  5|  3        
-    1|  2|  807|  [LG_EMGRPASS](LG_EMGRPASS "LG_EMGRPASS")|  Employee-Employee Group Asgn.|  807|  L_EMGRPASS|  0|  5|  3|  2        
-    1|  0|  808|  [LG_FRMPRDPARAM](LG_FRMPRDPARAM "LG_FRMPRDPARAM")|  Firm Production Parameters|  808|  L_FRMPRDPARAM|  0|  20|  3|  0        
-    1|  0|  809|  [LG_BOMPARAM](LG_BOMPARAM "LG_BOMPARAM")|  Bill Of Material Parameters|  809|  L_BOMPARAM|  0|  5|  2|  2        
-    1|  3|  810|  [LG_LOCATION](LG_LOCATION "LG_LOCATION")|  Locations|  810|  L_LOCATION|  0|  22|  3|  5        
-    2|  3|  811|  [LG_SERILOTN](LG_SERILOTN "LG_SERILOTN")|  Item Lot/Serial No Information|  811|  L_SERILOTN|  0|  21|  3|  1        
-    1|  3|  812|  [LG_INVDEF](LG_INVDEF "LG_INVDEF")|  Item - Warehouse Informations |  812|  L_INVDEF|  0|  14|  2|  2        
-    1|  3|  813|  [LG_CHARCODE](LG_CHARCODE "LG_CHARCODE")|  Characteristic Codes|  813|  L_CHARCODE|  0|  22|  3|  0        
-    1|  3|  814|  [LG_CHARVAL](LG_CHARVAL "LG_CHARVAL")|  Characteristic Values|  814|  L_CHARVAL|  0|  5|  4|  0        
-    1|  3|  815|  [LG_ITMCLSAS](LG_ITMCLSAS "LG_ITMCLSAS")|  Item - Item Class Assignments|  815|  L_ITMCLSAS|  0|  7|  4|  2        
-    1|  0|  817|  [LG_SUPPASGN](LG_SUPPASGN "LG_SUPPASGN")|  Item - Supplier Assignments|  817|  L_SUPPASGN|  0|  23|  5|  2        
-    1|  2|  818|  [LG_ITMBOMAS](LG_ITMBOMAS "LG_ITMBOMAS")|  Item - Bill Of Material Asgn.|  818|  L_ITMBOMAS|  0|  15|  2|  2        
-    1|  0|  819|  [LG_ITEMSUBS](LG_ITEMSUBS "LG_ITEMSUBS")|  Item Alternatives Assignments|  819|  L_ITEMSUBS|  0|  14|  4|  0        
-    1|  1|  820|  [LG_SHIFT](LG_SHIFT "LG_SHIFT")|  Shifts|  820|  L_SHIFT|  0|  21|  4|  0        
-    1|  1|  821|  [LG_SHFTTIME](LG_SHFTTIME "LG_SHFTTIME")|  Shift Times|  821|  L_SHFTTIME|  0|  7|  3|  1        
-    1|  1|  822|  [LG_SHFTASGN](LG_SHFTASGN "LG_SHFTASGN")|  Shift Assignments|  822|  L_SHFTASGN|  0|  10|  8|  6        
-    1|  3|  823|  [LG_CHARASGN](LG_CHARASGN "LG_CHARASGN")|  Item - Characteristic Asgn.|  823|  L_CHARASGN|  0|  7|  6|  3        
-    1|  0|  825|  [LG_SELCHVAL](LG_SELCHVAL "LG_SELCHVAL")|  Item - Characteristic Values|  825|  L_SELCHVAL|  0|  3|  2|  2        
-    0|  0|  826|  [LG_SELINSCH](LG_SELINSCH "LG_SELINSCH")|  |  826|  L_SELINSCH|  0|  3|  2|  0        
-    1|  3|  827|  [LG_DISTTEMP](LG_DISTTEMP "LG_DISTTEMP")|  Distribution Templates|  827|  L_DISTTEMP|  0|  19|  5|  2        
-    1|  0|  828|  [LG_DISTLINE](LG_DISTLINE "LG_DISTLINE")|  Distribution Template Lines|  828|  L_DISTLINE|  0|  5|  3|  2        
-    1|  3|  830|  [LG_UNITSETF](LG_UNITSETF "LG_UNITSETF")|  Unit Sets|  830|  L_UNITSETF|  0|  21|  5|  0        
-    1|  3|  831|  [LG_UNITSETL](LG_UNITSETL "LG_UNITSETL")|  Units|  831|  L_UNITSETL|  0|  21|  4|  7        
-    1|  3|  832|  [LG_ITMUNITA](LG_ITMUNITA "LG_ITMUNITA")|  Item - Unit Assignments|  832|  L_ITMUNITA|  0|  33|  5|  10        
-    1|  3|  833|  [LG_UNITSETC](LG_UNITSETC "LG_UNITSETC")|  Unit Set Conversion Factors|  833|  L_UNITSETC|  0|  5|  2|  2        
-    1|  3|  834|  [LG_SRVUNITA](LG_SRVUNITA "LG_SRVUNITA")|  Service Record - Unit Asgn.|  834|  L_SRVUNITA|  0|  5|  4|  2        
-    1|  3|  835|  [LG_QCSET](LG_QCSET "LG_QCSET")|  Inspection Sets|  835|  L_QCSET|  0|  21|  3|  0        
-    1|  3|  836|  [LG_QCSLINE](LG_QCSLINE "LG_QCSLINE")|  Inspection Lines|  836|  L_QCSLINE|  0|  25|  5|  2        
-    1|  0|  837|  [LG_QCLVAL](LG_QCLVAL "LG_QCLVAL")|  Inspection Values|  837|  L_QCLVAL|  0|  8|  7|  2        
-    1|  0|  838|  [LG_QASGN](LG_QASGN "LG_QASGN")|  Inspection Assignments|  838|  L_QASGN|  0|  26|  9|  7        
-    2|  3|  839|  [LG_SLQCASGN](LG_SLQCASGN "LG_SLQCASGN")|  Inspection Transactions|  839|  L_SLQCASGN|  0|  18|  3|  10        
-    2|  3|  840|  [LG_PRDCOST](LG_PRDCOST "LG_PRDCOST")|  Cost Period Closing Records|  840|  L_PRDCOST|  0|  20|  3|  4        
-    1|  3|  841|  [LG_TRGPAR](LG_TRGPAR "LG_TRGPAR")|  Trigger Parameters|  841|  L_TRGPAR|  0|  8|  1|  0        
-    1|  3|  843|  [LG_OPERTION](LG_OPERTION "LG_OPERTION")|  Operations|  843|  L_OPERTION|  0|  24|  5|  1        
-    1|  3|  844|  [LG_LNOPASGN](LG_LNOPASGN "LG_LNOPASGN")|  Operation - Item Relations|  844|  L_LNOPASGN|  0|  12|  4|  6        
-    1|  2|  845|  [LG_OPRTREQ](LG_OPRTREQ "LG_OPRTREQ")|  Operation Requirements|  845|  L_OPRTREQ|  0|  20|  4|  2        
-    1|  2|  846|  [LG_LABORREQ](LG_LABORREQ "LG_LABORREQ")|  Employee Requirements|  846|  L_LABORREQ|  0|  6|  3|  2        
-    1|  0|  847|  [LG_TOOLREQ](LG_TOOLREQ "LG_TOOLREQ")|  Tool Requirements|  847|  L_TOOLREQ|  0|  6|  3|  3        
-    2|  0|  849|  [LG_PROCUREMENT](LG_PROCUREMENT "LG_PROCUREMENT")|  Item Procurement Of Production|  849|  L_PROCUREMENT|  0|  40|  5|  12        
-    1|  0|  850|  [LG_STDCOST](LG_STDCOST "LG_STDCOST")|  Standard Costs|  850|  L_STDCOST|  0|  22|  2|  3        
-    1|  0|  854|  [LG_POLINE](LG_POLINE "LG_POLINE")|  Production Order Lines|  854|  L_POLINE|  0|  52|  3|  15        
-    1|  0|  855|  [LG_PARAMASGN](LG_PARAMASGN "LG_PARAMASGN")|  Production Parameters Asgn.|  855|  L_PARAMASGN|  0|  4|  2|  2        
-    1|  1|  856|  [LG_ENGCLINE](LG_ENGCLINE "LG_ENGCLINE")|  Engineering Change Transaction|  856|  L_ENGCLINE|  0|  29|  4|  5        
-    1|  1|  857|  [LG_PRODORD](LG_PRODORD "LG_PRODORD")|  Production Orders|  857|  L_PRODORD|  0|  108|  5|  10        
-    1|  1|  858|  [LG_PEGGING](LG_PEGGING "LG_PEGGING")|  Transaction Connections|  858|  L_PEGGING|  0|  19|  5|  9        
-    1|  0|  859|  [LG_DISPLINE](LG_DISPLINE "LG_DISPLINE")|  Work Orders|  859|  L_DISPLINE|  0|  76|  5|  9        
-    1|  0|  860|  [LG_PREVDISPLINE](LG_PREVDISPLINE "LG_PREVDISPLINE")|  Work Orders Relations|  860|  L_PREVDISPLINE|  0|  6|  3|  3        
-    1|  0|  861|  [LG_OPATTASG](LG_OPATTASG "LG_OPATTASG")|  Operation-Characteristic Asgn.|  861|  L_OPATTASG|  0|  4|  2|  3        
-    1|  0|  862|  [LG_PRODUCTLINEP](LG_PRODUCTLINEP "LG_PRODUCTLINEP")|  Product Lines|  862|  L_PRODUCTLINE|  0|  25|  5|  0        
-    0|  0|  863|  [L_FAANNCOST](L_FAANNCOST "L_FAANNCOST")|  |  863|  L_FAANNCOST|  0|  6|  2|  0        
-    0|  0|  865|  [LG_OCCUPATION](LG_OCCUPATION "LG_OCCUPATION")|  Resource Usages (Production)|  865|  L_OCCUPATION|  0|  25|  4|  6        
-    0|  0|  867|  [LG_AVGCURRS](LG_AVGCURRS "LG_AVGCURRS")|  Average Currencies|  867|  L_AVGCURRS|  0|  4|  2|  1        
-    0|  3|  868|  [L_DEFNFLDSCARDV](L_DEFNFLDSCARDV "L_DEFNFLDSCARDV")|  |  868|  L_DEFNFLDSCARDV|  0|  108|  2|  0        
-    0|  0|  869|  [L_DEFNFLDSTRANV](L_DEFNFLDSTRANV "L_DEFNFLDSTRANV")|  |  869|  L_DEFNFLDSTRANV|  0|  108|  2|  0        
-    0|  0|  870|  [LG_WHLIST](LG_WHLIST "LG_WHLIST")|  Warehouse Lists|  870|  L_WHLIST|  0|  10|  2|  0        
-    1|  0|  871|  [LG_STOPCAUSE](LG_STOPCAUSE "LG_STOPCAUSE")|  Work Order Stop Reasons|  871|  L_STOPCAUSE|  0|  21|  3|  0        
-    1|  0|  872|  [LG_STOPASGN](LG_STOPASGN "LG_STOPASGN")|  Work Order Stop R.-W. Station|  872|  L_STOPASGN|  0|  5|  2|  2        
-    1|  0|  873|  [LG_STOPTRANS](LG_STOPTRANS "LG_STOPTRANS")|  Work Order Stop Transactions|  873|  L_STOPTRANS|  0|  17|  2|  5        
-    0|  0|  874|  [L_MBSCRMRELF](L_MBSCRMRELF "L_MBSCRMRELF")|  |  874|  L_MBSCRMRELF|  0|  20|  4|  0        
-    1|  1|  875|  [LG_COPRDBOM](LG_COPRDBOM "LG_COPRDBOM")|  BOM - Co-Product Asgn.|  875|  L_COPRDBOM|  0|  8|  3|  3        
-    0|  0|  876|  [L_ITMWSTOT](L_ITMWSTOT "L_ITMWSTOT")|  |  876|  L_ITMWSTOT|  0|  21|  2|  0        
-    1|  0|  877|  [LG_ITMWSDEF](LG_ITMWSDEF "LG_ITMWSDEF")|  Item - Workstation Information|  877|  L_ITMWSDEF|  0|  9|  2|  2        
-    1|  0|  878|  [LG_WORKDAY](LG_WORKDAY "LG_WORKDAY")|  Working Days|  878|  L_WORKDAY|  0|  11|  3|  0        
-    0|  0|  879|  [LG_EXCEPTAS](LG_EXCEPTAS "LG_EXCEPTAS")|  Exception Assignments|  944|  L_GLCONNFILT|  0|  7|  2|  5        
-    0|  0|  880|  [L_MBSCRMRELP](L_MBSCRMRELP "L_MBSCRMRELP")|  |  880|  L_MBSCRMRELP|  0|  20|  4|  0        
-    0|  0|  881|  [L_WSTATPART](L_WSTATPART "L_WSTATPART")|  |  881|  L_WSTATPART|  0|  20|  5|  0        
-    1|  0|  882|  [LG_WORKSTAT](LG_WORKSTAT "LG_WORKSTAT")|  Workstations|  882|  L_WORKSTAT|  0|  39|  5|  8        
-    1|  0|  883|  [LG_STDUNITCOST](LG_STDUNITCOST "LG_STDUNITCOST")|  Standart Unit Costs|  883|  L_STDUNITCOST|  0|  15|  3|  4        
-    1|  1|  884|  [LG_WSGRPF](LG_WSGRPF "LG_WSGRPF")|  Workstation Groups|  884|  L_WSGRPF|  0|  33|  5|  2        
-    1|  0|  885|  [LG_WSGRPASS](LG_WSGRPASS "LG_WSGRPASS")|  Workstation - Group Asgn.|  885|  L_WSGRPASS|  0|  5|  3|  2        
-    1|  0|  886|  [LG_STDCOSTPERIOD](LG_STDCOSTPERIOD "LG_STDCOSTPERIOD")|  Standart Cost Periods|  886|  L_STDCOSTPERIOD|  0|  9|  5|  0        
-    1|  0|  887|  [LG_STDBOMCOST](LG_STDBOMCOST "LG_STDBOMCOST")|  Standart BOM Costs|  883|  L_STDBOMCOST|  0|  29|  7|  4        
-    1|  1|  888|  [LG_BOMASTER](LG_BOMASTER "LG_BOMASTER")|  Bill Of Materials|  888|  L_BOMASTER|  0|  28|  6|  4        
-    1|  3|  889|  [LG_ITMFACTP](LG_ITMFACTP "LG_ITMFACTP")|  Item - Plant Informations|  889|  L_ITMFACTP|  0|  37|  2|  1        
-    1|  1|  890|  [LG_BOMREVSN](LG_BOMREVSN "LG_BOMREVSN")|  Bill Of Material Revisions|  890|  L_BOMREVSN|  0|  21|  3|  3        
-    1|  0|  891|  [LG_BOMLINE](LG_BOMLINE "LG_BOMLINE")|  Bill Of Material Lines|  891|  L_BOMLINE|  0|  49|  4|  13        
-    1|  1|  892|  [LG_PRVOPASG](LG_PRVOPASG "LG_PRVOPASG")|  Operation Relations|  892|  L_PRVOPASG|  0|  6|  4|  4        
-    1|  0|  893|  [LG_ROUTING](LG_ROUTING "LG_ROUTING")|  Production Routes|  893|  L_ROUTING|  0|  23|  3|  0        
-    1|  0|  894|  [LG_WSATTASG](LG_WSATTASG "LG_WSATTASG")|  Workstation - Char. Asgn.|  894|  L_WSATTASG|  0|  3|  3|  2        
-    1|  0|  895|  [LG_WSATTVAS](LG_WSATTVAS "LG_WSATTVAS")|  Workstation-Char. Val. Asgn.|  895|  L_WSATTVAS|  0|  3|  3|  2        
-    2|  0|  896|  [LG_FCACCREF](LG_FCACCREF "LG_FCACCREF")|  P. Orders GL Acc. Connections|  896|  L_FCACCREF|  0|  9|  1|  6        
-    1|  0|  897|  [LG_RTNGLINE](LG_RTNGLINE "LG_RTNGLINE")|  Production Route Lines|  897|  L_RTNGLINE|  0|  13|  2|  3        
-    1|  0|  898|  [LG_WSCHCODE](LG_WSCHCODE "LG_WSCHCODE")|  Workstation Characteristics|  898|  L_WSCHCODE|  0|  22|  5|  0        
-    1|  0|  899|  [LG_WSCHVAL](LG_WSCHVAL "LG_WSCHVAL")|  Workstation Char. Values|  899|  L_WSCHVAL|  0|  5|  4|  1        
-    1|  1|  900|  [LG_DISTVEHICLE](LG_DISTVEHICLE "LG_DISTVEHICLE")|  Distrubutor Vehicles|  900|  L_DISTVEHICLE|  0|  37|  5|  6        
-    1|  0|  901|  [LG_DISTROUTING](LG_DISTROUTING "LG_DISTROUTING")|  Distribution Routes|  901|  L_DISTROUTING|  0|  21|  5|  0        
-    1|  0|  902|  [LG_DISTROUTLINE](LG_DISTROUTLINE "LG_DISTROUTLINE")|  Distribution Route Lines|  902|  L_DISTROUTLINE|  0|  12|  3|  2        
-    1|  0|  903|  [LG_DISTORD](LG_DISTORD "LG_DISTORD")|  Distribution Orders|  903|  L_DISTORD|  0|  28|  3|  3        
-    1|  0|  904|  [LG_DISTORDLINE](LG_DISTORDLINE "LG_DISTORDLINE")|  Distribution Order Lines|  904|  L_DISTORDLINE|  0|  51|  5|  14        
-    1|  0|  905|  [LG_CAMPAIGN](LG_CAMPAIGN "LG_CAMPAIGN")|  Campaign Cards|  905|  L_CAMPAIGN|  0|  40|  5|  0        
-    1|  0|  906|  [LG_CMPGNLINE](LG_CMPGNLINE "LG_CMPGNLINE")|  Capaign Lines|  906|  L_CMPGNLINE|  0|  15|  2|  5        
-    1|  1|  907|  [LG_OVERHEADS](LG_OVERHEADS "LG_OVERHEADS")|  OverHead(OutGoings) Cards|  907|  L_OVERHEADS|  0|  31|  5|  8        
-    1|  0|  908|  [LG_OVRHDACCREF](LG_OVRHDACCREF "LG_OVRHDACCREF")|  Overhead - Account Assignments|  908|  L_OVRHDACCREF|  0|  3|  3|  0        
-    1|  0|  909|  [LG_OVRHDCENTER](LG_OVRHDCENTER "LG_OVRHDCENTER")|  Overhead (outgoings) Items|  909|  L_OVRHDCENTER|  0|  26|  5|  1        
-    1|  1|  910|  [LG_OVRHDCENTERLN](LG_OVRHDCENTERLN "LG_OVRHDCENTERLN")|  Overhead Item Lines|  910|  L_OVRHDCENTERLN|  0|  15|  3|  5        
-    1|  0|  911|  [LG_OVHCDISTRATE](LG_OVHCDISTRATE "LG_OVHCDISTRATE")|  Service Distrubuting Cards|  911|  L_OVHCDISTRATE|  0|  5|  2|  3        
-    1|  1|  912|  [LG_WSOVHCASGN](LG_WSOVHCASGN "LG_WSOVHCASGN")|  Workstation-Overhead Item Asgn|  912|  L_WSOVHCASGN|  0|  4|  3|  2        
-    1|  1|  913|  [LG_OPREQACTIVITY](LG_OPREQACTIVITY "LG_OPREQACTIVITY")|  Operation Requirements Activit|  913|  L_OPREQACTIVITY|  0|  6|  1|  2        
-    0|  3|  914|  [LG_INVOICEINTEL](LG_INVOICEINTEL "LG_INVOICEINTEL")|  Invoice Additional Notes|  914|  L_INVOICEINTEL|  0|  15|  4|  2        
-    1|  0|  915|  [LG_OVHDTRANS](LG_OVHDTRANS "LG_OVHDTRANS")|  Standart OverHeads (OutGoings)|  915|  L_OVHDTRANS|  0|  15|  4|  4        
-    2|  0|  916|  [LG_REFLECT](LG_REFLECT "LG_REFLECT")|  Reflections|  916|  L_REFLECT|  0|  24|  2|  5        
-    2|  0|  917|  [LG_REFLECTTRANS](LG_REFLECTTRANS "LG_REFLECTTRANS")|  Reflection Transactions|  917|  L_REFLECTTRANS|  0|  28|  3|  6        
-    1|  1|  918|  [LG_ACTOVRHDDIST](LG_ACTOVRHDDIST "LG_ACTOVRHDDIST")|  Actual Overhead Loadings|  918|  L_ACTOVRHDDIST|  0|  13|  3|  5        
-    1|  1|  919|  [LG_ADDTAX](LG_ADDTAX "LG_ADDTAX")|  Additional Taxes|  919|  L_ADDTAX|  0|  18|  3|  0        
-    1|  0|  920|  [LG_ADDTAXLINE](LG_ADDTAXLINE "LG_ADDTAXLINE")|  Additional Tax Lines|  920|  L_ADDTAXLINE|  0|  13|  2|  3        
-    1|  1|  921|  [LG_ACTIVITYAMNT](LG_ACTIVITYAMNT "LG_ACTIVITYAMNT")|  Activity Amounts|  921|  L_ACTIVITYAMNT|  0|  6|  1|  3        
-    2|  0|  922|  [LG_REFLECTASGN](LG_REFLECTASGN "LG_REFLECTASGN")|  Reflection Assignments|  922|  L_REFLECTASGN|  0|  7|  2|  0        
-    0|  0|  923|  [L_POACCREF](L_POACCREF "L_POACCREF")|  |  923|  L_POACCREF|  0|  9|  1|  0        
-    0|  0|  924|  [L_STLNINFCOEF](L_STLNINFCOEF "L_STLNINFCOEF")|  |  924|  L_STLNINFCOEF|  0|  19|  2|  0        
-    0|  0|  925|  [L_EMFLNINFCOEF](L_EMFLNINFCOEF "L_EMFLNINFCOEF")|  |  925|  L_EMFLNINFCOEF|  0|  19|  2|  0        
-    0|  0|  926|  [L_DEMANDFICHE](L_DEMANDFICHE "L_DEMANDFICHE")|  |  926|  L_DEMANDFICHE|  0|  32|  3|  2        
-    0|  0|  927|  [LG_DEMANDLINE](LG_DEMANDLINE "LG_DEMANDLINE")|  |  927|  L_DEMANDLINE|  0|  58|  5|  0        
-    0|  0|  929|  [L_PROJECT](L_PROJECT "L_PROJECT")|  |  929|  L_PROJECT|  0|  23|  5|  0        
-    0|  0|  930|  [L_DEMANDPEGGING](L_DEMANDPEGGING "L_DEMANDPEGGING")|  |  930|  L_DEMANDPEGGING|  0|  29|  5|  4        
-    1|  0|  931|  [LG_ACCDISTTEMP](LG_ACCDISTTEMP "LG_ACCDISTTEMP")|  |  931|  L_ACCDISTTEMP|  0|  26|  4|  0        
-    1|  0|  932|  [LG_ACCDISTTEMPLN](LG_ACCDISTTEMPLN "LG_ACCDISTTEMPLN")|  |  932|  L_ACCDISTTEMPLN|  0|  6|  1|  0        
-    2|  0|  933|  [LG_ACCDISTDETLN](LG_ACCDISTDETLN "LG_ACCDISTDETLN")|  |  933|  L_ACCDISTDETLN|  0|  25|  4|  0        
-    2|  1|  934|  [LG_QPRODUCT](LG_QPRODUCT "LG_QPRODUCT")|  HÄ±zlÄ± Ãœretim|  934|  L_QPRODUCT|  0|  37|  3|  5        
-    0|  0|  935|  [L_COMPANSEACC](L_COMPANSEACC "L_COMPANSEACC")|  |  935|  L_COMPANSEACC|  0|  5|  3|  0        
-    2|  1|  936|  [LG_PACKAGEFICHE](LG_PACKAGEFICHE "LG_PACKAGEFICHE")|  |  936|  L_PACKAGEFICHE|  0|  30|  3|  0        
-    2|  0|  937|  [LG_PACKAGEFCLN](LG_PACKAGEFCLN "LG_PACKAGEFCLN")|  |  937|  L_PACKAGEFCLN|  0|  18|  1|  0        
-    2|  1|  938|  [LG_PACKAGEASGN](LG_PACKAGEASGN "LG_PACKAGEASGN")|  |  938|  L_PACKAGEASGN|  0|  12|  3|  10        
-    0|  0|  939|  [LG_REPAYPLAN](LG_REPAYPLAN "LG_REPAYPLAN")|  LG_REPAYPLAN|  939|  L_REPAYPLAN|  0|  13|  2|  0        
-    0|  0|  940|  [L_KSDISTDETLINES](L_KSDISTDETLINES "L_KSDISTDETLINES")|  |  940|  L_KSDISTDETLINES|  0|  26|  4|  5        
-    1|  0|  941|  [LG_DISCPAYLINES](LG_DISCPAYLINES "LG_DISCPAYLINES")|  |  941|  L_DISCPAYLINES|  0|  9|  2|  2        
-    2|  0|  942|  [LG_DISCPAYTRANS](LG_DISCPAYTRANS "LG_DISCPAYTRANS")|  |  942|  L_DISCPAYTRANS|  0|  14|  1|  8        
-    1|  0|  943|  [LG_GLASSGN](LG_GLASSGN "LG_GLASSGN")|  |  943|  L_GLASSGN|  0|  9|  2|  5        
-    0|  1|  944|  [LG_ORDPEGGING](LG_ORDPEGGING "LG_ORDPEGGING")|  |  944|  L_ORDPEGGING|  0|  22|  3|  0        
-    0|  0|  945|  [LG_REMINDHIST](LG_REMINDHIST "LG_REMINDHIST")|  |  945|  L_REMINDHIST|  0|  13|  2|  4        
-    0|  1|  946|  [LG_REPAYPLANS](LG_REPAYPLANS "LG_REPAYPLANS")|  |  946|  L_REPAYPLANS|  0|  24|  4|  1        
-    0|  0|  947|  [LG_REPAYPLANSLN](LG_REPAYPLANSLN "LG_REPAYPLANSLN")|  |  947|  L_REPAYPLANSLN|  0|  16|  2|  0        
-    0|  0|  948|  [L_DATAEXCHHISTOR](L_DATAEXCHHISTOR "L_DATAEXCHHISTOR")|  |  948|  L_DATAEXCHHISTORY|  0|  11|  2|  0        
-    0|  0|  949|  [L_MRPITEM](L_MRPITEM "L_MRPITEM")|  |  951|  L_MRPITEM|  0|  4|  2|  0        
-    0|  0|  950|  [LG_EXIMBUSTYP](LG_EXIMBUSTYP "LG_EXIMBUSTYP")|  |  950|  L_EXIMBUSTYP|  0|  3|  2|  0        
-    0|  0|  951|  [L_MARK](L_MARK "L_MARK")|  |  951|  L_MARK|  0|  18|  3|  0        
-    0|  0|  952|  [L_MRPITEMCHG](L_MRPITEMCHG "L_MRPITEMCHG")|  |  952|  L_MRPITEMCHG|  0|  3|  1|  0        
-    0|  0|  953|  [L_SLSOHISTORY](L_SLSOHISTORY "L_SLSOHISTORY")|  |  953|  L_SLSOHISTORY|  0|  17|  3|  0        
-    0|  0|  954|  [L_CONTSPECDAYS](L_CONTSPECDAYS "L_CONTSPECDAYS")|  |  954|  L_CONTSPECDAYS|  0|  8|  3|  0        
-    0|  1|  955|  [LG_FINTBLHEADER](LG_FINTBLHEADER "LG_FINTBLHEADER")|  |  955|  L_FINTBLHEADER|  0|  24|  2|  0        
-    0|  0|  956|  [L_INVEXIMINFO](L_INVEXIMINFO "L_INVEXIMINFO")|  |  795|  L_INVEXIMINFO|  0|  29|  4|  0        
-    0|  0|  957|  [L_EXIMWHFC](L_EXIMWHFC "L_EXIMWHFC")|  |  796|  L_EXIMWHFC|  0|  38|  4|  0        
-    0|  0|  958|  [L_EXIMWHTRANS](L_EXIMWHTRANS "L_EXIMWHTRANS")|  |  797|  L_EXIMWHTRANS|  0|  49|  2|  0        
-    0|  0|  959|  [L_IMPSRVREL](L_IMPSRVREL "L_IMPSRVREL")|  |  959|  L_IMPSRVREL|  0|  4|  1|  0        
-    0|  0|  960|  [LG_INVEXIMLINES](LG_INVEXIMLINES "LG_INVEXIMLINES")|  |  960|  L_INVEXIMLINES|  0|  19|  3|  1        
-    0|  0|  961|  [L_EXIMDISTFC](L_EXIMDISTFC "L_EXIMDISTFC")|  |  961|  L_EXIMDISTFC|  0|  31|  4|  0        
-    0|  0|  962|  [L_EXIMDISTLN](L_EXIMDISTLN "L_EXIMDISTLN")|  |  962|  L_EXIMDISTLN|  0|  18|  5|  0        
-    0|  0|  963|  [L_EXIMDISTPEG](L_EXIMDISTPEG "L_EXIMDISTPEG")|  |  963|  L_EXIMDISTPEG|  0|  23|  5|  0        
-    0|  0|  964|  [LG_EXIMHISTORY](LG_EXIMHISTORY "LG_EXIMHISTORY")|  |  964|  L_EXIMHISTORY|  0|  9|  2|  0        
-    0|  0|  965|  [L_GERMANYDEF](L_GERMANYDEF "L_GERMANYDEF")|  |  965|  L_GERMANYDEF|  0|  10|  2|  0        
-    0|  0|  966|  [L_STFCEXTINF](L_STFCEXTINF "L_STFCEXTINF")|  |  966|  L_STFCEXTINF|  0|  5|  2|  0        
-    0|  0|  967|  [L_INSTALCARD](L_INSTALCARD "L_INSTALCARD")|  |  967|  L_INSTALCARD|  0|  31|  4|  3        
-    0|  0|  968|  [L_GUARANTOR](L_GUARANTOR "L_GUARANTOR")|  |  968|  L_GUARANTOR|  0|  18|  2|  0        
-    0|  0|  969|  [LG_WORKFLOWCARD](LG_WORKFLOWCARD "LG_WORKFLOWCARD")|  |  969|  L_WORKFLOWCARD|  0|  29|  3|  1        
-    0|  0|  970|  [LG_WORKFLOWLINE](LG_WORKFLOWLINE "LG_WORKFLOWLINE")|  |  970|  L_WORKFLOWLINE|  0|  18|  1|  3        
-    0|  0|  971|  [LG_WFLOWROLE](LG_WFLOWROLE "LG_WFLOWROLE")|  |  971|  L_WFLOWROLE|  0|  20|  3|  0        
-    0|  0|  972|  [LG_WFLOWROLELN](LG_WFLOWROLELN "LG_WFLOWROLELN")|  |  972|  L_WFLOWROLELN|  0|  4|  2|  1        
-    0|  0|  973|  [L_GAUGPARAM](L_GAUGPARAM "L_GAUGPARAM")|  |  973|  L_GAUGPARAM|  0|  46|  3|  0        
-    0|  0|  974|  [L_APPPARAM](L_APPPARAM "L_APPPARAM")|  |  974|  L_APPPARAM|  0|  5|  3|  0        
-    0|  0|  975|  [LDDS-Res](LDDS-Res "LDDS-Res")|  |  975|  L_WFTASK|  0|  39|  3|  11
+-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----
+1|3|701|[LG_ITEMS](LG_ITEMS "LG_ITEMS")|Item Cards|701|L_ITEMS|0|127|18|15
+1|3|702|[LG_SRVCARD](LG_SRVCARD "LG_SRVCARD")|Service Cards|702|L_SRVCARD|0|27|6|2
+2|3|703|[LG_SRVTOT](LG_SRVTOT "LG_SRVTOT")|Monthly Service Totals|703|L_SRVTOT|0|8|2|1
+0|0|704|[L_STBCODE](L_STBCODE "L_STBCODE")||704|L_STBCODE|0|4|3|1
+2|0|705|[LG_STINVENS](LG_STINVENS "LG_STINVENS")|Item Purch/Sls Monthly Totals|705|L_STINVENS|0|11|2|1
+1|3|707|[LG_STCOMPLN](LG_STCOMPLN "LG_STCOMPLN")|Mixed Case Lines|707|L_STCOMPLN|0|11|3|3
+2|3|708|[LG_STFICHE](LG_STFICHE "LG_STFICHE")|Item Vouchers|708|L_STFICHE|0|111|15|19
+2|3|709|[LG_STLINE](LG_STLINE "LG_STLINE")|Item Transactions|709|L_STLINE|0|183|20|56
+1|2|710|[LG_PRCARDS](LG_PRCARDS "LG_PRCARDS")|Promotion Cards|710|L_PRCARDS|0|167|6|31
+1|3|711|[LG_DECARDS](LG_DECARDS "LG_DECARDS")|Discount / Surcharge Cards|711|L_DECARDS|0|27|5|0
+2|0|712|[LG_ORFICHE](LG_ORFICHE "LG_ORFICHE")|Order Vouchers|712|L_ORFICHE|0|80|6|12
+2|3|713|[LG_ORFLINE](LG_ORFLINE "LG_ORFLINE")|Order Transactions|713|L_ORFLINE|0|107|10|34
+2|3|714|[LG_INVOICE](LG_INVOICE "LG_INVOICE")|Invoices|714|L_INVOICE|0|97|9|15
+1|3|715|[LG_CLCARD](LG_CLCARD "LG_CLCARD")|Accounts Receivable / Payable|715|L_CLCARD|0|118|6|4
+2|3|716|[LG_CLFLINE](LG_CLFLINE "LG_CLFLINE")|AR / AP Transactions|716|L_CLFLINE|0|67|7|23
+1|3|717|[LG_CLINTEL](LG_CLINTEL "LG_CLINTEL")|AR / AP Additional Notes|717|L_CLINTEL|0|4|2|1
+2|3|718|[LG_CLRNUMS](LG_CLRNUMS "LG_CLRNUMS")|AR / AP Credits|718|L_CLRNUMS|0|41|2|1
+2|3|719|[LG_CLTOTFIL](LG_CLTOTFIL "LG_CLTOTFIL")|Monthly AR /AP Totals|719|L_CLTOTFIL|0|7|2|1
+1|3|720|[LG_PAYPLANS](LG_PAYPLANS "LG_PAYPLANS")|Payment Plans|720|L_PAYPLANS|0|28|4|2
+1|3|721|[LG_PAYLINES](LG_PAYLINES "LG_PAYLINES")|Payment Plan Lines|721|L_PAYLINES|0|17|2|3
+2|3|722|[LG_PAYTRANS](LG_PAYTRANS "LG_PAYTRANS")|Payment/Collection Transaction|722|L_PAYTRANS|0|58|4|15
+1|3|723|[LG_BNCARD](LG_BNCARD "LG_BNCARD")|Banks|723|L_BNCARD|0|37|5|0
+1|3|724|[LG_BANKACC](LG_BANKACC "LG_BANKACC")|Bank Accounts|724|L_BANKACC|0|36|6|1
+2|3|725|[LG_BNFLINE](LG_BNFLINE "LG_BNFLINE")|Bank Transactions|725|L_BNFLINE|0|86|9|18
+2|3|726|[LG_BNTOTFIL](LG_BNTOTFIL "LG_BNTOTFIL")|Monthly Bank Totals|726|L_BNTOTFIL|0|7|2|1
+1|3|727|[LG_EMUHACC](LG_EMUHACC "LG_EMUHACC")|General Ledger Accounts|727|L_EMUHACC|0|40|5|3
+2|3|728|[LG_EMFICHE](LG_EMFICHE "LG_EMFICHE")|General Ledger Vouchers|728|L_EMFICHE|0|48|4|0
+2|3|729|[LG_EMFLINE](LG_EMFLINE "LG_EMFLINE")|General Ledger Transactions|729|L_EMFLINE|0|36|5|3
+2|3|730|[LG_EMUHTOT](LG_EMUHTOT "LG_EMUHTOT")|Monthly General Ledger Totals |730|L_EMUHTOT|0|12|2|1
+0|0|731|[L_STNUMS](L_STNUMS "L_STNUMS")||731|L_STNUMS|0|9|2|0
+1|3|732|[LG_EMCENTER](LG_EMCENTER "LG_EMCENTER")|Overhead Pools|732|L_EMCENTER|0|23|5|0
+1|3|733|[LG_KSCARD](LG_KSCARD "LG_KSCARD")|Safe Deposits|733|L_KSCARD|0|23|5|0
+2|0|734|[LG_KSLINES](LG_KSLINES "LG_KSLINES")|Safe Deposit Transactions|734|L_KSLINES|0|71|7|15
+2|3|735|[LG_CSCARD](LG_CSCARD "LG_CSCARD")|Check / P. Note Cards|735|L_CSCARD|0|66|6|2
+2|3|736|[LG_CSROLL](LG_CSROLL "LG_CSROLL")|Check / P. Note Slips|736|L_CSROLL|0|56|4|7
+2|3|737|[LG_CSTRANS](LG_CSTRANS "LG_CSTRANS")|Check / P. Note Transactions|737|L_CSTRANS|0|20|4|8
+1|3|738|[LG_PRCLIST](LG_PRCLIST "LG_PRCLIST")|Purchase / Sales Prices|738|L_PRCLIST|0|44|7|4
+1|3|739|[LG_ACCCODES](LG_ACCCODES "LG_ACCCODES")|Integration Connection Codes|739|L_ACCCODES|0|22|4|3
+1|3|740|[LG_SPECODES](LG_SPECODES "LG_SPECODES")|Auxiliary Codes|740|L_SPECODES|0|10|2|0
+2|3|741|[LG_CSHTOTS](LG_CSHTOTS "LG_CSHTOTS")|Safe Deposit Monthly Totals|741|L_CSHTOTS|0|7|2|1
+2|3|742|[LG_PRODUCER](LG_PRODUCER "LG_PRODUCER")|Producer Invoices|742|L_PRODUCER|0|35|2|17
+1|3|743|[LG_ASCOND](LG_ASCOND "LG_ASCOND")|Purchase / Sales Conditions|743|L_ASCOND|0|16|2|6
+0|0|744|[LG_FINTABLEITEM](LG_FINTABLEITEM "LG_FINTABLEITEM")|Financial Table Definitions|744|L_FINTABLEITEM|0|24|1|0
+2|3|745|[LG_TRANSAC](LG_TRANSAC "LG_TRANSAC")|Company Period Informations|745|L_TRANSAC|0|26|1|0
+1|0|746|[LG_LOGREP](LG_LOGREP "LG_LOGREP")|LOG Records|746|L_LOGREP|0|7|2|0
+1|3|747|[LG_FAREGIST](LG_FAREGIST "LG_FAREGIST")|Fixed Asset Records|747|L_FAREGIST|0|85|3|2
+1|3|748|[LG_FAYEAR](LG_FAYEAR "LG_FAYEAR")|Fixed Asset Annual Records|748|L_FAYEAR|0|50|2|2
+1|1|749|[LG_SYSLOG](LG_SYSLOG "LG_SYSLOG")|System Logs|749|L_SYSLOG|0|19|3|0
+0|0|750|[L_PERMFILE](L_PERMFILE "L_PERMFILE")||750|L_PERMFILE|0|11|2|0
+2|3|751|[LG_SLTRANS](LG_SLTRANS "LG_SLTRANS")|Lot / Serial Transactions|751|L_SLTRANS|0|58|6|11
+2|3|753|[LG_SRVNUMS](LG_SRVNUMS "LG_SRVNUMS")|Service Totals|753|L_SRVNUMS|0|7|2|1
+2|0|754|[LG_BNFICHE](LG_BNFICHE "LG_BNFICHE")|Bank Vouchers|754|L_BNFICHE|0|45|4|2
+1|3|755|[LG_CRDACREF](LG_CRDACREF "LG_CRDACREF")|Card - General Ledger Codes|755|L_CRDACREF|0|10|2|9
+2|0|756|[LG_CLFICHE](LG_CLFICHE "LG_CLFICHE")|AR / AP Vouchers|756|L_CLFICHE|0|53|5|4
+2|3|757|[LG_STINVTOT](LG_STINVTOT "LG_STINVTOT")|Daily Item Warehouse Totals|757|L_STINVTOT|0|38|3|1
+1|0|758|[LG_SHIPINFO](LG_SHIPINFO "LG_SHIPINFO")|Delivery Informations|758|L_SHIPINFO|0|39|5|1
+0|0|759|[L_GNTOTST](L_GNTOTST "L_GNTOTST")||759|L_GNTOTST|0|37|3|0
+0|0|760|[L_GNTOTCL](L_GNTOTCL "L_GNTOTCL")||760|L_GNTOTCL|0|5|2|0
+0|0|761|[L_GNTOTBN](L_GNTOTBN "L_GNTOTBN")||761|L_GNTOTBN|0|5|2|0
+0|0|762|[L_GNTOTCSH](L_GNTOTCSH "L_GNTOTCSH")||762|L_GNTOTCSH|0|5|2|0
+0|3|770|[LG_SLSMAN](LG_SLSMAN "LG_SLSMAN")|Sales Representatives|770|L_SLSMAN|0|26|6|0
+0|0|771|[LG_SLSCLREL](LG_SLSCLREL "LG_SLSCLREL")|Sales Representatives-Accounts|771|L_SLSCLREL|0|6|2|2
+1|3|772|[LG_ROUTE](LG_ROUTE "LG_ROUTE")|Sales Routes|772|L_ROUTE|0|21|4|1
+1|3|773|[LG_ROUTETRS](LG_ROUTETRS "LG_ROUTETRS")|Sales Route Lines|773|L_ROUTETRS|0|4|3|2
+1|3|774|[LG_TARGETS](LG_TARGETS "LG_TARGETS")|Sales Representative Targets|774|L_TARGETS|0|27|4|3
+2|3|775|[LG_FOLDER](LG_FOLDER "LG_FOLDER")|Document Directory Information|775|L_FOLDER|0|3|2|0
+0|0|776|[LG_INDUSTRY](LG_INDUSTRY "LG_INDUSTRY")|Sectors|776|L_INDUSTRY|0|18|3|0
+0|0|777|[LG_CSTVND](LG_CSTVND "LG_CSTVND")|Customer / Vendor Informations|777|L_CSTVND|0|44|5|0
+0|0|778|[LG_CVINDASG](LG_CVINDASG "LG_CVINDASG")|Customer/Vendor-Sector Asgn|778|L_CVINDASG|0|11|2|2
+1|0|779|[LG_CVARPASG](LG_CVARPASG "LG_CVARPASG")|Customer / Vendor AR / AP Asgn|779|L_CVARPASG|0|8|2|2
+0|0|780|[LG_CONTACTS](LG_CONTACTS "LG_CONTACTS")|Customer / Vendor Connections |780|L_CONTACTS|0|41|3|1
+1|0|781|[LG_SLSOPPOR](LG_SLSOPPOR "LG_SLSOPPOR")|Sales Opportunities|781|L_SLSOPPOR|0|32|5|3
+1|0|782|[LG_SLSACTIV](LG_SLSACTIV "LG_SLSACTIV")|Sales Activities|782|L_SLSACTIV|0|32|4|4
+1|0|783|[LG_OFFER](LG_OFFER "LG_OFFER")|Offers|783|L_OFFER|0|19|4|4
+1|0|784|[LG_OFFALTER](LG_OFFALTER "LG_OFFALTER")|Offer Alternatives|784|L_OFFALTER|0|80|4|4
+1|0|785|[LG_OFFTRNS](LG_OFFTRNS "LG_OFFTRNS")|Offer Transactions|785|L_OFFTRNS|0|106|3|15
+0|0|786|[LG_CNTSLSMASG](LG_CNTSLSMASG "LG_CNTSLSMASG")|Contacts-Sales Rep. Asgn.|786|L_CNTSLSMASG|0|7|2|2
+0|0|787|[LG_ACTPEPL](LG_ACTPEPL "LG_ACTPEPL")|People Of Activities|787|L_ACTPEPL|0|19|3|1
+0|0|788|[LG_SLSFILES](LG_SLSFILES "LG_SLSFILES")|Files Of Activities|788|L_SLSFILES|0|19|2|1
+0|0|789|[LG_SATI](LG_SATI "LG_SATI")|Sales Activities Tree Items|789|L_SATI|0|8|3|3
+0|0|790|[LG_SATIFILTER](LG_SATIFILTER "LG_SATIFILTER")|Sales Act Tree Item Filters|790|L_SATIFILTER|0|21|3|0
+1|1|791|[LG_SLSCLREL](LG_SLSCLREL "LG_SLSCLREL")|Sales Representative-Accounts|791|L_SLSCLREL|0|10|4|2
+1|0|792|[LG_EXPCREDITCRD](LG_EXPCREDITCRD "LG_EXPCREDITCRD")|LG_EXPCREDITCRD|792|L_EXPCREDITCRD|0|31|3|0
+1|0|793|[LG_EXPCREDITLN](LG_EXPCREDITLN "LG_EXPCREDITLN")||793|L_EXPCREDITLN|0|14|2|0
+0|0|795|[L_DIIB](L_DIIB "L_DIIB")||795|L_DIIB|0|26|3|0
+0|0|796|[L_DIIBLINE](L_DIIBLINE "L_DIIBLINE")||796|L_DIIBLINE|0|16|3|0
+0|0|797|[L_DIIBBOMLINE](L_DIIBBOMLINE "L_DIIBBOMLINE")||797|L_DIIBBOMLINE|0|10|3|0
+1|0|800|[LG_MRPHEAD](LG_MRPHEAD "LG_MRPHEAD")|MRP and MPS Headers|800|L_MRPHEAD|0|35|4|0
+1|0|801|[LG_MRPLINE](LG_MRPLINE "LG_MRPLINE")|MRP Lines|801|L_MRPLINE|0|24|2|5
+1|0|802|[LG_MRPPEGGING](LG_MRPPEGGING "LG_MRPPEGGING")|MRP Assignments|802|L_MRPPEGGING|0|10|3|11
+1|0|803|[LG_MRPPROPOSAL](LG_MRPPROPOSAL "LG_MRPPROPOSAL")|MRP Proposals|803|L_MRPPROPOSAL|0|14|2|7
+1|1|804|[LG_EXCEPT](LG_EXCEPT "LG_EXCEPT")|Exceptions|804|L_EXCEPT|0|24|3|4
+1|3|805|[LG_EMPGROUP](LG_EMPGROUP "LG_EMPGROUP")|Employee Groups|805|L_EMPGROUP|0|29|5|2
+1|3|806|[LG_EMPLOYEE](LG_EMPLOYEE "LG_EMPLOYEE")|Employees|806|L_EMPLOYEE|0|33|5|3
+1|2|807|[LG_EMGRPASS](LG_EMGRPASS "LG_EMGRPASS")|Employee-Employee Group Asgn.|807|L_EMGRPASS|0|5|3|2
+1|0|808|[LG_FRMPRDPARAM](LG_FRMPRDPARAM "LG_FRMPRDPARAM")|Firm Production Parameters|808|L_FRMPRDPARAM|0|20|3|0
+1|0|809|[LG_BOMPARAM](LG_BOMPARAM "LG_BOMPARAM")|Bill Of Material Parameters|809|L_BOMPARAM|0|5|2|2
+1|3|810|[LG_LOCATION](LG_LOCATION "LG_LOCATION")|Locations|810|L_LOCATION|0|22|3|5
+2|3|811|[LG_SERILOTN](LG_SERILOTN "LG_SERILOTN")|Item Lot/Serial No Information|811|L_SERILOTN|0|21|3|1
+1|3|812|[LG_INVDEF](LG_INVDEF "LG_INVDEF")|Item - Warehouse Informations |812|L_INVDEF|0|14|2|2
+1|3|813|[LG_CHARCODE](LG_CHARCODE "LG_CHARCODE")|Characteristic Codes|813|L_CHARCODE|0|22|3|0
+1|3|814|[LG_CHARVAL](LG_CHARVAL "LG_CHARVAL")|Characteristic Values|814|L_CHARVAL|0|5|4|0
+1|3|815|[LG_ITMCLSAS](LG_ITMCLSAS "LG_ITMCLSAS")|Item - Item Class Assignments|815|L_ITMCLSAS|0|7|4|2
+1|0|817|[LG_SUPPASGN](LG_SUPPASGN "LG_SUPPASGN")|Item - Supplier Assignments|817|L_SUPPASGN|0|23|5|2
+1|2|818|[LG_ITMBOMAS](LG_ITMBOMAS "LG_ITMBOMAS")|Item - Bill Of Material Asgn.|818|L_ITMBOMAS|0|15|2|2
+1|0|819|[LG_ITEMSUBS](LG_ITEMSUBS "LG_ITEMSUBS")|Item Alternatives Assignments|819|L_ITEMSUBS|0|14|4|0
+1|1|820|[LG_SHIFT](LG_SHIFT "LG_SHIFT")|Shifts|820|L_SHIFT|0|21|4|0
+1|1|821|[LG_SHFTTIME](LG_SHFTTIME "LG_SHFTTIME")|Shift Times|821|L_SHFTTIME|0|7|3|1
+1|1|822|[LG_SHFTASGN](LG_SHFTASGN "LG_SHFTASGN")|Shift Assignments|822|L_SHFTASGN|0|10|8|6
+1|3|823|[LG_CHARASGN](LG_CHARASGN "LG_CHARASGN")|Item - Characteristic Asgn.|823|L_CHARASGN|0|7|6|3
+1|0|825|[LG_SELCHVAL](LG_SELCHVAL "LG_SELCHVAL")|Item - Characteristic Values|825|L_SELCHVAL|0|3|2|2
+0|0|826|[LG_SELINSCH](LG_SELINSCH "LG_SELINSCH")||826|L_SELINSCH|0|3|2|0
+1|3|827|[LG_DISTTEMP](LG_DISTTEMP "LG_DISTTEMP")|Distribution Templates|827|L_DISTTEMP|0|19|5|2
+1|0|828|[LG_DISTLINE](LG_DISTLINE "LG_DISTLINE")|Distribution Template Lines|828|L_DISTLINE|0|5|3|2
+1|3|830|[LG_UNITSETF](LG_UNITSETF "LG_UNITSETF")|Unit Sets|830|L_UNITSETF|0|21|5|0
+1|3|831|[LG_UNITSETL](LG_UNITSETL "LG_UNITSETL")|Units|831|L_UNITSETL|0|21|4|7
+1|3|832|[LG_ITMUNITA](LG_ITMUNITA "LG_ITMUNITA")|Item - Unit Assignments|832|L_ITMUNITA|0|33|5|10
+1|3|833|[LG_UNITSETC](LG_UNITSETC "LG_UNITSETC")|Unit Set Conversion Factors|833|L_UNITSETC|0|5|2|2
+1|3|834|[LG_SRVUNITA](LG_SRVUNITA "LG_SRVUNITA")|Service Record - Unit Asgn.|834|L_SRVUNITA|0|5|4|2
+1|3|835|[LG_QCSET](LG_QCSET "LG_QCSET")|Inspection Sets|835|L_QCSET|0|21|3|0
+1|3|836|[LG_QCSLINE](LG_QCSLINE "LG_QCSLINE")|Inspection Lines|836|L_QCSLINE|0|25|5|2
+1|0|837|[LG_QCLVAL](LG_QCLVAL "LG_QCLVAL")|Inspection Values|837|L_QCLVAL|0|8|7|2
+1|0|838|[LG_QASGN](LG_QASGN "LG_QASGN")|Inspection Assignments|838|L_QASGN|0|26|9|7
+2|3|839|[LG_SLQCASGN](LG_SLQCASGN "LG_SLQCASGN")|Inspection Transactions|839|L_SLQCASGN|0|18|3|10
+2|3|840|[LG_PRDCOST](LG_PRDCOST "LG_PRDCOST")|Cost Period Closing Records|840|L_PRDCOST|0|20|3|4
+1|3|841|[LG_TRGPAR](LG_TRGPAR "LG_TRGPAR")|Trigger Parameters|841|L_TRGPAR|0|8|1|0
+1|3|843|[LG_OPERTION](LG_OPERTION "LG_OPERTION")|Operations|843|L_OPERTION|0|24|5|1
+1|3|844|[LG_LNOPASGN](LG_LNOPASGN "LG_LNOPASGN")|Operation - Item Relations|844|L_LNOPASGN|0|12|4|6
+1|2|845|[LG_OPRTREQ](LG_OPRTREQ "LG_OPRTREQ")|Operation Requirements|845|L_OPRTREQ|0|20|4|2
+1|2|846|[LG_LABORREQ](LG_LABORREQ "LG_LABORREQ")|Employee Requirements|846|L_LABORREQ|0|6|3|2
+1|0|847|[LG_TOOLREQ](LG_TOOLREQ "LG_TOOLREQ")|Tool Requirements|847|L_TOOLREQ|0|6|3|3
+2|0|849|[LG_PROCUREMENT](LG_PROCUREMENT "LG_PROCUREMENT")|Item Procurement Of Production|849|L_PROCUREMENT|0|40|5|12
+1|0|850|[LG_STDCOST](LG_STDCOST "LG_STDCOST")|Standard Costs|850|L_STDCOST|0|22|2|3
+1|0|854|[LG_POLINE](LG_POLINE "LG_POLINE")|Production Order Lines|854|L_POLINE|0|52|3|15
+1|0|855|[LG_PARAMASGN](LG_PARAMASGN "LG_PARAMASGN")|Production Parameters Asgn.|855|L_PARAMASGN|0|4|2|2
+1|1|856|[LG_ENGCLINE](LG_ENGCLINE "LG_ENGCLINE")|Engineering Change Transaction|856|L_ENGCLINE|0|29|4|5
+1|1|857|[LG_PRODORD](LG_PRODORD "LG_PRODORD")|Production Orders|857|L_PRODORD|0|108|5|10
+1|1|858|[LG_PEGGING](LG_PEGGING "LG_PEGGING")|Transaction Connections|858|L_PEGGING|0|19|5|9
+1|0|859|[LG_DISPLINE](LG_DISPLINE "LG_DISPLINE")|Work Orders|859|L_DISPLINE|0|76|5|9
+1|0|860|[LG_PREVDISPLINE](LG_PREVDISPLINE "LG_PREVDISPLINE")|Work Orders Relations|860|L_PREVDISPLINE|0|6|3|3
+1|0|861|[LG_OPATTASG](LG_OPATTASG "LG_OPATTASG")|Operation-Characteristic Asgn.|861|L_OPATTASG|0|4|2|3
+1|0|862|[LG_PRODUCTLINEP](LG_PRODUCTLINEP "LG_PRODUCTLINEP")|Product Lines|862|L_PRODUCTLINE|0|25|5|0
+0|0|863|[L_FAANNCOST](L_FAANNCOST "L_FAANNCOST")||863|L_FAANNCOST|0|6|2|0
+0|0|865|[LG_OCCUPATION](LG_OCCUPATION "LG_OCCUPATION")|Resource Usages (Production)|865|L_OCCUPATION|0|25|4|6
+0|0|867|[LG_AVGCURRS](LG_AVGCURRS "LG_AVGCURRS")|Average Currencies|867|L_AVGCURRS|0|4|2|1
+0|3|868|[L_DEFNFLDSCARDV](L_DEFNFLDSCARDV "L_DEFNFLDSCARDV")||868|L_DEFNFLDSCARDV|0|108|2|0
+0|0|869|[L_DEFNFLDSTRANV](L_DEFNFLDSTRANV "L_DEFNFLDSTRANV")||869|L_DEFNFLDSTRANV|0|108|2|0
+0|0|870|[LG_WHLIST](LG_WHLIST "LG_WHLIST")|Warehouse Lists|870|L_WHLIST|0|10|2|0
+1|0|871|[LG_STOPCAUSE](LG_STOPCAUSE "LG_STOPCAUSE")|Work Order Stop Reasons|871|L_STOPCAUSE|0|21|3|0
+1|0|872|[LG_STOPASGN](LG_STOPASGN "LG_STOPASGN")|Work Order Stop R.-W. Station|872|L_STOPASGN|0|5|2|2
+1|0|873|[LG_STOPTRANS](LG_STOPTRANS "LG_STOPTRANS")|Work Order Stop Transactions|873|L_STOPTRANS|0|17|2|5
+0|0|874|[L_MBSCRMRELF](L_MBSCRMRELF "L_MBSCRMRELF")||874|L_MBSCRMRELF|0|20|4|0
+1|1|875|[LG_COPRDBOM](LG_COPRDBOM "LG_COPRDBOM")|BOM - Co-Product Asgn.|875|L_COPRDBOM|0|8|3|3
+0|0|876|[L_ITMWSTOT](L_ITMWSTOT "L_ITMWSTOT")||876|L_ITMWSTOT|0|21|2|0
+1|0|877|[LG_ITMWSDEF](LG_ITMWSDEF "LG_ITMWSDEF")|Item - Workstation Information|877|L_ITMWSDEF|0|9|2|2
+1|0|878|[LG_WORKDAY](LG_WORKDAY "LG_WORKDAY")|Working Days|878|L_WORKDAY|0|11|3|0
+0|0|879|[LG_EXCEPTAS](LG_EXCEPTAS "LG_EXCEPTAS")|Exception Assignments|944|L_GLCONNFILT|0|7|2|5
+0|0|880|[L_MBSCRMRELP](L_MBSCRMRELP "L_MBSCRMRELP")||880|L_MBSCRMRELP|0|20|4|0
+0|0|881|[L_WSTATPART](L_WSTATPART "L_WSTATPART")||881|L_WSTATPART|0|20|5|0
+1|0|882|[LG_WORKSTAT](LG_WORKSTAT "LG_WORKSTAT")|Workstations|882|L_WORKSTAT|0|39|5|8
+1|0|883|[LG_STDUNITCOST](LG_STDUNITCOST "LG_STDUNITCOST")|Standart Unit Costs|883|L_STDUNITCOST|0|15|3|4
+1|1|884|[LG_WSGRPF](LG_WSGRPF "LG_WSGRPF")|Workstation Groups|884|L_WSGRPF|0|33|5|2
+1|0|885|[LG_WSGRPASS](LG_WSGRPASS "LG_WSGRPASS")|Workstation - Group Asgn.|885|L_WSGRPASS|0|5|3|2
+1|0|886|[LG_STDCOSTPERIOD](LG_STDCOSTPERIOD "LG_STDCOSTPERIOD")|Standart Cost Periods|886|L_STDCOSTPERIOD|0|9|5|0
+1|0|887|[LG_STDBOMCOST](LG_STDBOMCOST "LG_STDBOMCOST")|Standart BOM Costs|883|L_STDBOMCOST|0|29|7|4
+1|1|888|[LG_BOMASTER](LG_BOMASTER "LG_BOMASTER")|Bill Of Materials|888|L_BOMASTER|0|28|6|4
+1|3|889|[LG_ITMFACTP](LG_ITMFACTP "LG_ITMFACTP")|Item - Plant Informations|889|L_ITMFACTP|0|37|2|1
+1|1|890|[LG_BOMREVSN](LG_BOMREVSN "LG_BOMREVSN")|Bill Of Material Revisions|890|L_BOMREVSN|0|21|3|3
+1|0|891|[LG_BOMLINE](LG_BOMLINE "LG_BOMLINE")|Bill Of Material Lines|891|L_BOMLINE|0|49|4|13
+1|1|892|[LG_PRVOPASG](LG_PRVOPASG "LG_PRVOPASG")|Operation Relations|892|L_PRVOPASG|0|6|4|4
+1|0|893|[LG_ROUTING](LG_ROUTING "LG_ROUTING")|Production Routes|893|L_ROUTING|0|23|3|0
+1|0|894|[LG_WSATTASG](LG_WSATTASG "LG_WSATTASG")|Workstation - Char. Asgn.|894|L_WSATTASG|0|3|3|2
+1|0|895|[LG_WSATTVAS](LG_WSATTVAS "LG_WSATTVAS")|Workstation-Char. Val. Asgn.|895|L_WSATTVAS|0|3|3|2
+2|0|896|[LG_FCACCREF](LG_FCACCREF "LG_FCACCREF")|P. Orders GL Acc. Connections|896|L_FCACCREF|0|9|1|6
+1|0|897|[LG_RTNGLINE](LG_RTNGLINE "LG_RTNGLINE")|Production Route Lines|897|L_RTNGLINE|0|13|2|3
+1|0|898|[LG_WSCHCODE](LG_WSCHCODE "LG_WSCHCODE")|Workstation Characteristics|898|L_WSCHCODE|0|22|5|0
+1|0|899|[LG_WSCHVAL](LG_WSCHVAL "LG_WSCHVAL")|Workstation Char. Values|899|L_WSCHVAL|0|5|4|1
+1|1|900|[LG_DISTVEHICLE](LG_DISTVEHICLE "LG_DISTVEHICLE")|Distrubutor Vehicles|900|L_DISTVEHICLE|0|37|5|6
+1|0|901|[LG_DISTROUTING](LG_DISTROUTING "LG_DISTROUTING")|Distribution Routes|901|L_DISTROUTING|0|21|5|0
+1|0|902|[LG_DISTROUTLINE](LG_DISTROUTLINE "LG_DISTROUTLINE")|Distribution Route Lines|902|L_DISTROUTLINE|0|12|3|2
+1|0|903|[LG_DISTORD](LG_DISTORD "LG_DISTORD")|Distribution Orders|903|L_DISTORD|0|28|3|3
+1|0|904|[LG_DISTORDLINE](LG_DISTORDLINE "LG_DISTORDLINE")|Distribution Order Lines|904|L_DISTORDLINE|0|51|5|14
+1|0|905|[LG_CAMPAIGN](LG_CAMPAIGN "LG_CAMPAIGN")|Campaign Cards|905|L_CAMPAIGN|0|40|5|0
+1|0|906|[LG_CMPGNLINE](LG_CMPGNLINE "LG_CMPGNLINE")|Capaign Lines|906|L_CMPGNLINE|0|15|2|5
+1|1|907|[LG_OVERHEADS](LG_OVERHEADS "LG_OVERHEADS")|OverHead(OutGoings) Cards|907|L_OVERHEADS|0|31|5|8
+1|0|908|[LG_OVRHDACCREF](LG_OVRHDACCREF "LG_OVRHDACCREF")|Overhead - Account Assignments|908|L_OVRHDACCREF|0|3|3|0
+1|0|909|[LG_OVRHDCENTER](LG_OVRHDCENTER "LG_OVRHDCENTER")|Overhead (outgoings) Items|909|L_OVRHDCENTER|0|26|5|1
+1|1|910|[LG_OVRHDCENTERLN](LG_OVRHDCENTERLN "LG_OVRHDCENTERLN")|Overhead Item Lines|910|L_OVRHDCENTERLN|0|15|3|5
+1|0|911|[LG_OVHCDISTRATE](LG_OVHCDISTRATE "LG_OVHCDISTRATE")|Service Distrubuting Cards|911|L_OVHCDISTRATE|0|5|2|3
+1|1|912|[LG_WSOVHCASGN](LG_WSOVHCASGN "LG_WSOVHCASGN")|Workstation-Overhead Item Asgn|912|L_WSOVHCASGN|0|4|3|2
+1|1|913|[LG_OPREQACTIVITY](LG_OPREQACTIVITY "LG_OPREQACTIVITY")|Operation Requirements Activit|913|L_OPREQACTIVITY|0|6|1|2
+0|3|914|[LG_INVOICEINTEL](LG_INVOICEINTEL "LG_INVOICEINTEL")|Invoice Additional Notes|914|L_INVOICEINTEL|0|15|4|2
+1|0|915|[LG_OVHDTRANS](LG_OVHDTRANS "LG_OVHDTRANS")|Standart OverHeads (OutGoings)|915|L_OVHDTRANS|0|15|4|4
+2|0|916|[LG_REFLECT](LG_REFLECT "LG_REFLECT")|Reflections|916|L_REFLECT|0|24|2|5
+2|0|917|[LG_REFLECTTRANS](LG_REFLECTTRANS "LG_REFLECTTRANS")|Reflection Transactions|917|L_REFLECTTRANS|0|28|3|6
+1|1|918|[LG_ACTOVRHDDIST](LG_ACTOVRHDDIST "LG_ACTOVRHDDIST")|Actual Overhead Loadings|918|L_ACTOVRHDDIST|0|13|3|5
+1|1|919|[LG_ADDTAX](LG_ADDTAX "LG_ADDTAX")|Additional Taxes|919|L_ADDTAX|0|18|3|0
+1|0|920|[LG_ADDTAXLINE](LG_ADDTAXLINE "LG_ADDTAXLINE")|Additional Tax Lines|920|L_ADDTAXLINE|0|13|2|3
+1|1|921|[LG_ACTIVITYAMNT](LG_ACTIVITYAMNT "LG_ACTIVITYAMNT")|Activity Amounts|921|L_ACTIVITYAMNT|0|6|1|3
+2|0|922|[LG_REFLECTASGN](LG_REFLECTASGN "LG_REFLECTASGN")|Reflection Assignments|922|L_REFLECTASGN|0|7|2|0
+0|0|923|[L_POACCREF](L_POACCREF "L_POACCREF")||923|L_POACCREF|0|9|1|0
+0|0|924|[L_STLNINFCOEF](L_STLNINFCOEF "L_STLNINFCOEF")||924|L_STLNINFCOEF|0|19|2|0
+0|0|925|[L_EMFLNINFCOEF](L_EMFLNINFCOEF "L_EMFLNINFCOEF")||925|L_EMFLNINFCOEF|0|19|2|0
+0|0|926|[L_DEMANDFICHE](L_DEMANDFICHE "L_DEMANDFICHE")||926|L_DEMANDFICHE|0|32|3|2
+0|0|927|[LG_DEMANDLINE](LG_DEMANDLINE "LG_DEMANDLINE")||927|L_DEMANDLINE|0|58|5|0
+0|0|929|[L_PROJECT](L_PROJECT "L_PROJECT")||929|L_PROJECT|0|23|5|0
+0|0|930|[L_DEMANDPEGGING](L_DEMANDPEGGING "L_DEMANDPEGGING")||930|L_DEMANDPEGGING|0|29|5|4
+1|0|931|[LG_ACCDISTTEMP](LG_ACCDISTTEMP "LG_ACCDISTTEMP")||931|L_ACCDISTTEMP|0|26|4|0
+1|0|932|[LG_ACCDISTTEMPLN](LG_ACCDISTTEMPLN "LG_ACCDISTTEMPLN")||932|L_ACCDISTTEMPLN|0|6|1|0
+2|0|933|[LG_ACCDISTDETLN](LG_ACCDISTDETLN "LG_ACCDISTDETLN")||933|L_ACCDISTDETLN|0|25|4|0
+2|1|934|[LG_QPRODUCT](LG_QPRODUCT "LG_QPRODUCT")|HÄ±zlÄ± Ãœretim|934|L_QPRODUCT|0|37|3|5
+0|0|935|[L_COMPANSEACC](L_COMPANSEACC "L_COMPANSEACC")||935|L_COMPANSEACC|0|5|3|0
+2|1|936|[LG_PACKAGEFICHE](LG_PACKAGEFICHE "LG_PACKAGEFICHE")||936|L_PACKAGEFICHE|0|30|3|0
+2|0|937|[LG_PACKAGEFCLN](LG_PACKAGEFCLN "LG_PACKAGEFCLN")||937|L_PACKAGEFCLN|0|18|1|0
+2|1|938|[LG_PACKAGEASGN](LG_PACKAGEASGN "LG_PACKAGEASGN")||938|L_PACKAGEASGN|0|12|3|10
+0|0|939|[LG_REPAYPLAN](LG_REPAYPLAN "LG_REPAYPLAN")|LG_REPAYPLAN|939|L_REPAYPLAN|0|13|2|0
+0|0|940|[L_KSDISTDETLINES](L_KSDISTDETLINES "L_KSDISTDETLINES")||940|L_KSDISTDETLINES|0|26|4|5
+1|0|941|[LG_DISCPAYLINES](LG_DISCPAYLINES "LG_DISCPAYLINES")||941|L_DISCPAYLINES|0|9|2|2
+2|0|942|[LG_DISCPAYTRANS](LG_DISCPAYTRANS "LG_DISCPAYTRANS")||942|L_DISCPAYTRANS|0|14|1|8
+1|0|943|[LG_GLASSGN](LG_GLASSGN "LG_GLASSGN")||943|L_GLASSGN|0|9|2|5
+0|1|944|[LG_ORDPEGGING](LG_ORDPEGGING "LG_ORDPEGGING")||944|L_ORDPEGGING|0|22|3|0
+0|0|945|[LG_REMINDHIST](LG_REMINDHIST "LG_REMINDHIST")||945|L_REMINDHIST|0|13|2|4
+0|1|946|[LG_REPAYPLANS](LG_REPAYPLANS "LG_REPAYPLANS")||946|L_REPAYPLANS|0|24|4|1
+0|0|947|[LG_REPAYPLANSLN](LG_REPAYPLANSLN "LG_REPAYPLANSLN")||947|L_REPAYPLANSLN|0|16|2|0
+0|0|948|[L_DATAEXCHHISTOR](L_DATAEXCHHISTOR "L_DATAEXCHHISTOR")||948|L_DATAEXCHHISTORY|0|11|2|0
+0|0|949|[L_MRPITEM](L_MRPITEM "L_MRPITEM")||951|L_MRPITEM|0|4|2|0
+0|0|950|[LG_EXIMBUSTYP](LG_EXIMBUSTYP "LG_EXIMBUSTYP")||950|L_EXIMBUSTYP|0|3|2|0
+0|0|951|[L_MARK](L_MARK "L_MARK")||951|L_MARK|0|18|3|0
+0|0|952|[L_MRPITEMCHG](L_MRPITEMCHG "L_MRPITEMCHG")||952|L_MRPITEMCHG|0|3|1|0
+0|0|953|[L_SLSOHISTORY](L_SLSOHISTORY "L_SLSOHISTORY")||953|L_SLSOHISTORY|0|17|3|0
+0|0|954|[L_CONTSPECDAYS](L_CONTSPECDAYS "L_CONTSPECDAYS")||954|L_CONTSPECDAYS|0|8|3|0
+0|1|955|[LG_FINTBLHEADER](LG_FINTBLHEADER "LG_FINTBLHEADER")||955|L_FINTBLHEADER|0|24|2|0
+0|0|956|[L_INVEXIMINFO](L_INVEXIMINFO "L_INVEXIMINFO")||795|L_INVEXIMINFO|0|29|4|0
+0|0|957|[L_EXIMWHFC](L_EXIMWHFC "L_EXIMWHFC")||796|L_EXIMWHFC|0|38|4|0
+0|0|958|[L_EXIMWHTRANS](L_EXIMWHTRANS "L_EXIMWHTRANS")||797|L_EXIMWHTRANS|0|49|2|0
+0|0|959|[L_IMPSRVREL](L_IMPSRVREL "L_IMPSRVREL")||959|L_IMPSRVREL|0|4|1|0
+0|0|960|[LG_INVEXIMLINES](LG_INVEXIMLINES "LG_INVEXIMLINES")||960|L_INVEXIMLINES|0|19|3|1
+0|0|961|[L_EXIMDISTFC](L_EXIMDISTFC "L_EXIMDISTFC")||961|L_EXIMDISTFC|0|31|4|0
+0|0|962|[L_EXIMDISTLN](L_EXIMDISTLN "L_EXIMDISTLN")||962|L_EXIMDISTLN|0|18|5|0
+0|0|963|[L_EXIMDISTPEG](L_EXIMDISTPEG "L_EXIMDISTPEG")||963|L_EXIMDISTPEG|0|23|5|0
+0|0|964|[LG_EXIMHISTORY](LG_EXIMHISTORY "LG_EXIMHISTORY")||964|L_EXIMHISTORY|0|9|2|0
+0|0|965|[L_GERMANYDEF](L_GERMANYDEF "L_GERMANYDEF")||965|L_GERMANYDEF|0|10|2|0
+0|0|966|[L_STFCEXTINF](L_STFCEXTINF "L_STFCEXTINF")||966|L_STFCEXTINF|0|5|2|0
+0|0|967|[L_INSTALCARD](L_INSTALCARD "L_INSTALCARD")||967|L_INSTALCARD|0|31|4|3
+0|0|968|[L_GUARANTOR](L_GUARANTOR "L_GUARANTOR")||968|L_GUARANTOR|0|18|2|0
+0|0|969|[LG_WORKFLOWCARD](LG_WORKFLOWCARD "LG_WORKFLOWCARD")||969|L_WORKFLOWCARD|0|29|3|1
+0|0|970|[LG_WORKFLOWLINE](LG_WORKFLOWLINE "LG_WORKFLOWLINE")||970|L_WORKFLOWLINE|0|18|1|3
+0|0|971|[LG_WFLOWROLE](LG_WFLOWROLE "LG_WFLOWROLE")||971|L_WFLOWROLE|0|20|3|0
+0|0|972|[LG_WFLOWROLELN](LG_WFLOWROLELN "LG_WFLOWROLELN")||972|L_WFLOWROLELN|0|4|2|1
+0|0|973|[L_GAUGPARAM](L_GAUGPARAM "L_GAUGPARAM")||973|L_GAUGPARAM|0|46|3|0
+0|0|974|[L_APPPARAM](L_APPPARAM "L_APPPARAM")||974|L_APPPARAM|0|5|3|0
+0|0|975|[LDDS-Res](LDDS-Res "LDDS-Res")||975|L_WFTASK|0|39|3|11
+
