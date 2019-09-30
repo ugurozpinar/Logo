@@ -1,3 +1,4 @@
+[Deneme](LG_ITEMS "Deneme")
 ## Cari Ekstre (CLFLINE) TRCODE ve MODULENR karşılıkları
 
 **TRCODE**|**MODULENR**|**Ad**
