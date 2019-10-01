@@ -98,3 +98,117 @@
 2|3|Index3|Duplicate + Not Null|2|FICHEREF|Ascending
 2|3|Index3|Duplicate + Not Null|3|SIGN|Ascending
 2|3|Index4|Duplicate + Not Null|1|DATE_|Ascending
+
+
+## Türler : TRCODE - MODULENR Eşleşmeleri
+
+| TRCODE | MODULENR | Açıklama                              |
+|--------|----------|---------------------------------------|
+| 1      | 10       | Nakit Tahsilat                        |
+| 2      | 10       | Nakit Ödeme                           |
+| 11     | 10       | Cari Hesap Tahsilat                   |
+| 12     | 10       | Cari Hesap Ödeme                      |
+| 12     | 10       | Bankadan Çekilen                      |
+| 21     | 10       | Bankaya Yatırılan                     |
+| 31     | 10       | Satınalma Faturası                    |
+| 32     | 10       | Perakende Satış İade Faturası         |
+| 33     | 10       | Toptan Satış İade Faturası            |
+| 34     | 10       | Alınan Hizmet Faturası                |
+| 35     | 10       | Satınalma İade Faturası               |
+| 36     | 10       | Perakende Satış Faturası              |
+| 37     | 10       | Toptan Satış Faturası                 |
+| 38     | 10       | Verilen Hizmet Faturası               |
+| 39     | 10       | Müstahsil Makbuzu                     |
+| 41     | 10       | Muh. Tahsil                           |
+| 42     | 10       | Muh. Tediye                           |
+| 61     | 10       | Çek Tahsili                           |
+| 62     | 10       | Senet Tahsili                         |
+| 63     | 10       | Çek Ödemesi                           |
+| 64     | 10       | Senet Ödemesi                         |
+| 71     | 10       | Açılış (Borç)                         |
+| 72     | 10       | Açılış (Alacak)                       |
+| 73     | 10       | Virman (Borç)                         |
+| 74     | 10       | Virman (Alacak)                       |
+| 75     | 10       | Gider Pusulası                        |
+| 76     | 10       | Verilen Serbest Mes                   |
+| 77     | 10       | Alınan Serbest Mes                    |
+| 1 	     | 3        | Ödemeli Satış Siparişi                |
+| 1 	     | 4        | Mal Alım Faturası                     |
+| 1 	     | 5        | Nakit Tahsilat                        |
+| 1 	     | 6        | Çek Girişi                            |
+| 1 	     | 7        | Banka İşlem Fişi                      |
+| 10 	    | 4        | Verilen Proforma Faturası             |
+| 10 	    | 6        | İşlem Bordrosu Müşteri Senedi         |
+| 11 	    | 6        | İşlem Bordrosu Kendi Çekimiz          |
+| 12 	    | 5        | Özel İşlem                            |
+| 12 	    | 6        | İşlem Bordrosu Kendi Senedimiz        |
+| 13 	    | 4        | Alınan Fiyat Farkı Faturası           |
+| 13 	    | 6        | İşyerleri Arası İ.Bord. Müşteri Çeki  |
+| 14 	    | 4        | Verilen Fiyat Farkı Faturası          |
+| 14 	    | 5        | Açılış Fişi                           |
+| 16 	    | 7        | Banka Alınan Hizmet Faturası          |
+| 17 	    | 7        | Banka Verilen Hizmet Faturası         |
+| 18 	    | 7        | Bankadan Çek Ödemesi                  |
+| 19 	    | 7        | Bankadan Senet Ödemesi                |
+| 2 	     | 3        | Ödemeli Satınalma Siparişi            |
+| 2 	     | 4        | Perakende Satış İade                  |
+| 2 	     | 5        | Nakit Ödeme                           |
+| 2 	     | 6        | Senet Girişi                          |
+| 2 	     | 7        | Banka Virman Fişi                     |
+| 20 	    | 5        | Gelen Havaleler                       |
+| 21 	    | 5        | Gönderilen Havaleler                  |
+| 24 	    | 5        | Döviz Alış Belgesi                    |
+| 25 	    | 5        | Döviz Satış Belgesi                   |
+| 26 	    | 4        | Müstahsil Makbuzu                     |
+| 28 	    | 5        | Banka Alınan Hizmet Fat.              |
+| 3 	     | 4        | Toptan Satış İade                     |
+| 3 	     | 5        | Borç Dekontu                          |
+| 3 	     | 6        | Çek Çıkış Cari Hesaba                 |
+| 3 	     | 7        | Gelen Havale / Eft                    |
+| 3 	     | 61       | Borç Dekontu                          |
+| 31 	    | 5        | Mal Alım Faturası                     |
+| 32 	    | 5        | Perakende Satış İade Faturası         |
+| 33 	    | 5        | Toptan Satış İade Faturası            |
+| 34 	    | 5        | Alınan Hizmet Faturası                |
+| 35 	    | 5        | Alınan Proforma Faturası              |
+| 36 	    | 5        | Alım İade Faturası                    |
+| 37 	    | 5        | Perakende Satış Faturası              |
+| 38 	    | 5        | Toptan Satış Faturası                 |
+| 39 	    | 5        | Verilen Hizmet Faturası               |
+| 4 	     | 4        | Alınan Hizmet Faturası                |
+| 4 	     | 5        | Alacak Dekontu                        |
+| 4 	     | 6        | Senet Çıkış Cari Hesaba               |
+| 4 	     | 7        | Gönderilen Havale / Eft               |
+| 4 	     | 61       | Alacak Dekontu END AS ‘FIS TURU,      |
+| 40 	    | 5        | Verilen Proforma Faturası             |
+| 41 	    | 4        | Verilen Vade Farkı Faturası           |
+| 41 	    | 5        | Verilen Vade Farkı Faturası           |
+| 42 	    | 4        | Alınan Vade Farkı Faturası            |
+| 42 	    | 5        | Alınan Vade Farkı Faturası            |
+| 43 	    | 5        | Alınan Fiyat Farkı Faturası           |
+| 44 	    | 5        | Verilen Fiyat Farkı Faturası          |
+| 46 	    | 5        | Alınan Ser. Mes. Makbuzu              |
+| 5 	     | 4        | Alınan Proforma Faturası              |
+| 5 	     | 5        | Virman Işlemi                         |
+| 5 	     | 6        | Çek Çıkış Banka Tahsil                |
+| 5 	     | 7        | Banka Açılış Fişi                     |
+| 56 	    | 5        | Müsthsil Makbuzu                      |
+| 6 	     | 4        | Alım İade Faturası                    |
+| 6 	     | 5        | Kur Farkı İşlemi                      |
+| 6 	     | 6        | Senet Çıkış Banka Tahsil              |
+| 6 	     | 7        | Banka Kur Farkı Fişi                  |
+| 61 	    | 5        | Çek Girişi                            |
+| 62 	    | 5        | Senet Girişi                          |
+| 63 	    | 5        | Çek Çıkış Cari Hesaba                 |
+| 64 	    | 5        | Senet Çıkış Cari Hesaba               |
+| 7 	     | 4        | Perakede Satış Faturası               |
+| 7 	     | 6        | Çek Çıkış Banka Teminat               |
+| 7 	     | 7        | Döviz Alış Belgesi                    |
+| 70 	    | 5        | Kredi Kartı Fişi                      |
+| 71 	    | 5        | Kredi Kartı İade Fişi                 |
+| 72 	    | 5        | Firma Kredi Kartı Fişi                |
+| 8 	     | 4        | Toptan Satış Faturası                 |
+| 8 	     | 6        | Senet Çıkış Banka Teminat             |
+| 8 	     | 7        | Döviz Satış Belgesi                   |
+| 9 	     | 4        | Verilen Hizmet Faturası               |
+| 9 	     | 6        | İşlem Bordrosu Müşteri çeki           |
