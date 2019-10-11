@@ -6,6 +6,7 @@ Logo Tiger Enterprise özel raporlar
 ### [Çekler Raporu](cekler.sql "Logo Muhasebe Programı Çekler Raporu")
 ### [Muhasebe Fiş Hareketlerinden Yaşlandırma Raporu](Borc%20Yaslandirma "Logo Tiger Muhasebe Programı Borç Yaşlandırma")
 ### [Faturalar Satır Detaylı](Faturalar%20Sat%C4%B1r%20Detayl%C4%B1 "Satır Bazında Fatura Detay İndirilecek KDV")
+### [Veri Düzeltmeleri ve Kontrol](Veri%20Düzeltmeleri "Veri düzeltmeleri ve kontrol")
 
 
 ## Repo Hakkında
