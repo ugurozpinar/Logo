@@ -10,3 +10,6 @@ Ama fiyat ve miktar harici sütunlarda değişiklik yapılmak istenebiliyor sonr
 ### [Şifre Sıfırlama](şifre%20sıfırlama.sql)
 LOGO Kullanıcısının şifresini sıfırlama
 Update sonrasında şifre "LOGO" olacaktır
+
+### [Belge No Takibi İçin Kontrol Tablosu](belgeno_takip.sql)
+E-İrsaliye belge no atlamalarının önüne geçmek için dandik bi tablo yarattım
