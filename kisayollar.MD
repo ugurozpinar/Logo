@@ -2,10 +2,14 @@
 |--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
 | F1                 | Programın herhangi bir yerinde yardım penceresini açar.                                                                                                                                 | 
 | F2                 | Çalıştığınız kartı ya da fişi kaydeder.                                                                                                                                                 | 
+| F3                 | Çalıştığınız kartı ya da fişi kaydetmeden çıkar.                                                                                                                                       | 
 | Alt + F4           | Pencereyi kapatır. Hiç pencere yoksa programı kapatır.                                                                                                                                  | 
 | F5                 | Fatura, irsaliye sipariş fişinde başlık kısmında malzeme-hizmet satırına direkt geçiş                                                                                                   | 
+| F8                 | Sipariş/İrsaliye/Fatura/Cari-Malzeme Kartı vs. kod atamalarında tekrarlayan bir dizenin devamındaki sıra sayısını atar.                                                                                                   | 
 | F9                 | Sağ Mouse tuşuna basılınca gelen menü seçenekleri ekrana gelir.                                                                                                                         | 
 | F10                | Çalıştığınız kart ya da fişin alanlarında pencere açarak listeden seçim yapmanızı sağlar. ... (üç nokta) tuşu ile aynı işi görür. Üç nokta tuşuna basılabilen her yerde kullanılabilir. | 
+| F11                | Penceredeki sütun başlıklarına ekleme/çıkarma yapmaya yarar.                                                                                                                           | 
+| F12                | Ekrandaki verileri excel'e aktarmakta kullanılır.                                                                                                                                       | 
 | Enter              | Programda Fiş/Fatura satırlarında, bir alt satıra geçmek için kullanılır.                                                                                                               | 
 | Tab                | Programda bilgi giriş ekranlarında bir alandan diğerine geçmek için Tab tuşu kullanılır. Her bastığınızda bir sonraki alana geçmenizi sağlar.                                           | 
 | Shift+Tab          | Tab tuşuna Shift tuşu ile birlikte basıldığında, gidilen yönün aksine alanlar arasında geri gelinmesini sağlar.                                                                         | 
@@ -17,4 +21,9 @@
 |                    | Faturadayken irsaliye aktar, ya da irsaliyedeyken sipariş aktar gibi ekranlarda aktarım yapılacak satırları seçmek için kullanılır.                                                     | 
 | Alt+5              | Malzeme ve hizmet satırında birden fazla indirmi kolay girmeye yarar.                                                                                                                   | 
 | Alt + F2           | Programın her alanında hesap makinesini çalıştırır.                                                                                                                                     | 
+| Ctrl + F           | Arama penceresini açar.                                                                                                                                                                  | 
 | Ctrl + Enter       | Hangi sütunda olursa olsun hesap kodu sütununa gider                                                                                                                                    | 
+| Ctrl + F2       | Fiş / Fatura vs. yarıda kalan işlemleri Tamamlanmamış Kayıt olarak saklar. Sonradan Tamamlanmamış Kayıtlar sayfasından ulaşılabilir.                                                        | 
+| Ctrl + Tab       | Logo percereleri arasında geçişi sağlar.                                                                                                                                                  | 
+| Shift + Sağ Mouse  | Shift tuşu basılı tutarken Sağ Mouse tuşu ile işretleme yapılınca veri alanlarında kopyalama/yapıştırma yapmaya yarar.                                                                  | 
+
