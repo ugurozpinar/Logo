@@ -7,6 +7,9 @@ Fatura/İrsaliye seri no atlamalarını kontrol etmek için rapor
 Fatura gönderildiğinde ESTATUS hanesi sıfırdan farklı değerler alıyor ve o faturada değişiklik yapılması engelleniyor haklı olarak.
 Ama fiyat ve miktar harici sütunlarda değişiklik yapılmak istenebiliyor sonrasında. Bunun için aşağıdaki işlemleri uyguluyorum
 
+### [E-İrsaliye Kilit Açma Düzenleme](eirsaliye_kilitacma.sql)
+ETTN ile daha önce irsaliye gönderilmiş gibi hatalar aldığımda ya da tam tersi irsaliyede miktar haricinde veri değiştirmek istediğimde yaptığım işlem
+
 ### [Şifre Sıfırlama](şifre%20sıfırlama.sql)
 LOGO Kullanıcısının şifresini sıfırlama
 Update sonrasında şifre "LOGO" olacaktır
