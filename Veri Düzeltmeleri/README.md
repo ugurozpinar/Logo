@@ -10,6 +10,9 @@ Ama fiyat ve miktar harici sütunlarda değişiklik yapılmak istenebiliyor sonr
 ### [E-İrsaliye Kilit Açma Düzenleme](eirsaliye_kilitacma.sql)
 ETTN ile daha önce irsaliye gönderilmiş gibi hatalar aldığımda ya da tam tersi irsaliyede miktar haricinde veri değiştirmek istediğimde yaptığım işlem
 
+### [E-Arşiv Kilit Açma Düzenleme](earsiv_kilitacma.sql)
+Earşiv faturada değişiklik yapılmak istendiğinde
+
 ### [Şifre Sıfırlama](şifre%20sıfırlama.sql)
 LOGO Kullanıcısının şifresini sıfırlama
 Update sonrasında şifre "LOGO" olacaktır
