@@ -1,6 +1,6 @@
 ### L_APPPARAM
 
-## Alanlar
+## Alanlar ve Açıklamaları
 
 **Level**|**Product ID**|**Field Name**|**Field Type**|**Field Size**|**Field Offset**|**Türkçe Açıklama**|**Expression**
 -----|-----|-----|-----|-----|-----|-----|-----
