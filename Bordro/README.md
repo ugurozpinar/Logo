@@ -101,7 +101,7 @@
 | LH_CRITCGRP  | Kritik grup tanımları          |
 | LH_CRIGRPLN  | Kritik Grup Satırları          |
 | LH_TIMEPLAN  | Zaman Planlama Kayıtları       |
-| LH_ACTPLNLN  | Aktivite Plan Satırları        |
+| LH_ACTPLNLN  | (izin) Aktivite Plan Satırları        |
 | LH_VACTRANS  | İzin devir bilgileri           |
 | LH_WORKDAYS  | Çalışma Günleri                |
 | LH_EDUCFIRM  | Eğitim Kurumları               |
