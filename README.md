@@ -3,6 +3,7 @@ Logo Tiger Enterprise özel raporlar
 
 ### [Tiger 3, Tiger 3 Enterprise, Go 3 Veritabanı (Database)](Tablo%20Açıklamaları%20Yeni)
 ### [Lot ve Depo Bazında Stok Raporu](lot_depo_rapor.sql "Logo Tiger Enterprise özel rapor - Lot ve Depo Bazında Stok")
+### [Dövizli Bakiye Takibi](Dövizli%20Bakiye%20Takibi "Dövizli Bakiye Takibi")
 ### [Çekler Raporu](cekler.sql "Logo Muhasebe Programı Çekler Raporu")
 ### [Banka Hesap Hareketleri Raporu](banka_hareketleri.sql "Banka Hesap Hareketleri Raporu")
 ### [Muhasebe Fiş Hareketlerinden Yaşlandırma Raporu](Borc%20Yaslandirma "Logo Tiger Muhasebe Programı Borç Yaşlandırma")
