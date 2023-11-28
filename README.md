@@ -40,3 +40,7 @@ Logo'da tablolar firma numaralarına göre değiştiğinden; sql'i çalıştırm
 [logo muhasebe programı demo](https://ugurozpinar.github.io/Logo/ "logo muhasebe programı demo")
 [logo fiyat listesi](https://ugurozpinar.github.io/Logo/ "logo fiyat listesi")
 [logo go plus eğitim](https://ugurozpinar.github.io/Logo/ "logo go plus eğitim")
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ugurozpinar/logo&type=Date)](https://star-history.com/#ugurozpinar/logo&Date)
